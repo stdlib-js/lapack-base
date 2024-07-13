@@ -76,6 +76,12 @@ The namespace contains the following:
 
 <!-- <toc pattern="*"> -->
 
+<div class="namespace-toc">
+
+-   <span class="signature">[`dlaswp( N, A, LDA, k1, k2, IPIV, incx )`][@stdlib/lapack/base/dlaswp]</span><span class="delimiter">: </span><span class="description">perform a series of row interchanges on an input matrix.</span>
+
+</div>
+
 <!-- </toc> -->
 
 </section>
@@ -180,6 +186,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/lapack-base/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/lapack-base/main/LICENSE
+
+<!-- <toc-links> -->
+
+[@stdlib/lapack/base/dlaswp]: https://github.com/stdlib-js/lapack-base-dlaswp
+
+<!-- </toc-links> -->
 
 </section>
 
