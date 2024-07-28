@@ -78,6 +78,7 @@ The namespace contains the following:
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`dlacpy( order, uplo, M, N, A, LDA, B, LDB )`][@stdlib/lapack/base/dlacpy]</span><span class="delimiter">: </span><span class="description">copy all or part of a matrix `A` to another matrix `B`.</span>
 -   <span class="signature">[`dlaswp( N, A, LDA, k1, k2, IPIV, incx )`][@stdlib/lapack/base/dlaswp]</span><span class="delimiter">: </span><span class="description">perform a series of row interchanges on an input matrix.</span>
 
 </div>
@@ -188,6 +189,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/lapack-base/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/lapack/base/dlacpy]: https://github.com/stdlib-js/lapack-base-dlacpy
 
 [@stdlib/lapack/base/dlaswp]: https://github.com/stdlib-js/lapack-base-dlaswp
 
