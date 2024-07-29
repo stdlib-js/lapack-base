@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/lapack-base",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Base (i.e., lower-level) LAPACK routines.",
   "license": "Apache-2.0",
   "author": {
@@ -36,10 +36,10 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/lapack-base-dlacpy": "github:stdlib-js/lapack-base-dlacpy#main",
+    "@stdlib/lapack-base-dlacpy": "^0.1.0",
     "@stdlib/lapack-base-dlassq": "github:stdlib-js/lapack-base-dlassq#main",
-    "@stdlib/lapack-base-dlaswp": "github:stdlib-js/lapack-base-dlaswp#main",
-    "@stdlib/lapack-base-dpttrf": "github:stdlib-js/lapack-base-dpttrf#main",
+    "@stdlib/lapack-base-dlaswp": "^0.1.0",
+    "@stdlib/lapack-base-dpttrf": "^0.1.0",
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
@@ -51,7 +51,7 @@
     "@stdlib/assert-is-browser": "^0.2.2",
     "@stdlib/assert-is-error": "^0.2.2",
     "@stdlib/assert-is-same-float64array": "^0.2.1",
-    "@stdlib/blas-base-assert-is-layout": "^0.0.1",
+    "@stdlib/blas-base-assert-is-layout": "^0.0.2",
     "@stdlib/blas-base-dswap": "^0.3.0",
     "@stdlib/constants-float64-eps": "^0.2.2",
     "@stdlib/lapack-base-dlassq-package.json": "github:stdlib-js/lapack-base-dlassq-package.json#main",
