@@ -10,6 +10,28 @@
 
 ### Packages
 
+<section class="package" id="lapack-base-unreleased">
+
+#### [@stdlib/lapack/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`0b89aa1`](https://github.com/stdlib-js/stdlib/commit/0b89aa1ac2df073fcf9dd05960881f352d8920e5) - update namespace TypeScript declarations [(#2710)](https://github.com/stdlib-js/stdlib/pull/2710)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -32,6 +54,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`0b89aa1`](https://github.com/stdlib-js/stdlib/commit/0b89aa1ac2df073fcf9dd05960881f352d8920e5) - **feat:** update namespace TypeScript declarations [(#2710)](https://github.com/stdlib-js/stdlib/pull/2710) _(by stdlib-bot, Athan Reines)_
 -   [`c832f7e`](https://github.com/stdlib-js/stdlib/commit/c832f7e4303d3c12421e10e06b6c1136ff12fca3) - **docs:** update namespace table of contents [(#2698)](https://github.com/stdlib-js/stdlib/pull/2698) _(by stdlib-bot, Athan Reines)_
 
 </details>
