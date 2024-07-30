@@ -79,6 +79,7 @@ The namespace contains the following:
 <div class="namespace-toc">
 
 -   <span class="signature">[`dlacpy( order, uplo, M, N, A, LDA, B, LDB )`][@stdlib/lapack/base/dlacpy]</span><span class="delimiter">: </span><span class="description">copy all or part of a matrix `A` to another matrix `B`.</span>
+-   <span class="signature">[`dlassq( N, X, strideX, scale, sumsq )`][@stdlib/lapack/base/dlassq]</span><span class="delimiter">: </span><span class="description">return an updated sum of squares represented in scaled form.</span>
 -   <span class="signature">[`dlaswp( N, A, LDA, k1, k2, IPIV, incx )`][@stdlib/lapack/base/dlaswp]</span><span class="delimiter">: </span><span class="description">perform a series of row interchanges on an input matrix.</span>
 -   <span class="signature">[`dpttrf( N, D, E )`][@stdlib/lapack/base/dpttrf]</span><span class="delimiter">: </span><span class="description">compute the `L * D * L^T` factorization of a real symmetric positive definite tridiagonal matrix `A`.</span>
 
@@ -156,8 +157,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/lapack-base.svg
 [npm-url]: https://npmjs.org/package/@stdlib/lapack-base
 
-[test-image]: https://github.com/stdlib-js/lapack-base/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/lapack-base/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/lapack-base/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/lapack-base/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/lapack-base/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/lapack-base?branch=main
@@ -192,6 +193,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 <!-- <toc-links> -->
 
 [@stdlib/lapack/base/dlacpy]: https://github.com/stdlib-js/lapack-base-dlacpy
+
+[@stdlib/lapack/base/dlassq]: https://github.com/stdlib-js/lapack-base-dlassq
 
 [@stdlib/lapack/base/dlaswp]: https://github.com/stdlib-js/lapack-base-dlaswp
 

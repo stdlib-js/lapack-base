@@ -2,7 +2,47 @@
 
 > Package changelog.
 
-<section class="release" id="v0.1.0">
+<section class="release" id="unreleased">
+
+## Unreleased (2024-07-30)
+
+<section class="packages">
+
+### Packages
+
+</section>
+
+<!-- /.packages -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`c832f7e`](https://github.com/stdlib-js/stdlib/commit/c832f7e4303d3c12421e10e06b6c1136ff12fca3) - **docs:** update namespace table of contents [(#2698)](https://github.com/stdlib-js/stdlib/pull/2698) _(by stdlib-bot, Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+</section>
+
+<!-- /.release -->
 
 ## 0.1.0 (2024-07-29)
 
@@ -10,7 +50,7 @@
 
 ### Packages
 
-<section class="package" id="lapack-base-unreleased">
+<section class="package" id="lapack-base-v0.1.0">
 
 #### [@stdlib/lapack/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base)
 
@@ -39,7 +79,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="lapack-base-dlacpy-unreleased">
+<section class="package" id="lapack-base-dlacpy-v0.1.0">
 
 #### [@stdlib/lapack/base/dlacpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/dlacpy)
 
@@ -61,7 +101,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="lapack-base-dlassq-unreleased">
+<section class="package" id="lapack-base-dlassq-v0.1.0">
 
 #### [@stdlib/lapack/base/dlassq](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/dlassq)
 
@@ -83,7 +123,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="lapack-base-dlaswp-unreleased">
+<section class="package" id="lapack-base-dlaswp-v0.1.0">
 
 #### [@stdlib/lapack/base/dlaswp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/dlaswp)
 
@@ -120,7 +160,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="lapack-base-dpttrf-unreleased">
+<section class="package" id="lapack-base-dpttrf-v0.1.0">
 
 #### [@stdlib/lapack/base/dpttrf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/dpttrf)
 
@@ -204,8 +244,4 @@ A total of 3 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
-
-</section>
-
-<!-- /.release -->
 
