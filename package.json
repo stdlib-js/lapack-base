@@ -46,6 +46,7 @@
   },
   "devDependencies": {
     "@stdlib/array-base-flatten": "^0.2.1",
+    "@stdlib/array-base-flatten2d": "^0.2.2",
     "@stdlib/array-base-reverse": "^0.2.2",
     "@stdlib/array-float32": "^0.2.2",
     "@stdlib/array-float64": "^0.2.2",
@@ -56,6 +57,7 @@
     "@stdlib/assert-is-same-float64array": "^0.2.2",
     "@stdlib/blas-base-assert-is-layout": "^0.0.2",
     "@stdlib/blas-base-dswap": "^0.3.0",
+    "@stdlib/blas-base-sswap": "^0.2.2",
     "@stdlib/constants-float32-eps": "^0.2.2",
     "@stdlib/constants-float64-eps": "^0.2.2",
     "@stdlib/lapack-base-dlassq-package.json": "github:stdlib-js/lapack-base-dlassq-package.json#main",

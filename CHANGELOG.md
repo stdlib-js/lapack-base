@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-01)
+## Unreleased (2024-08-17)
 
 <section class="packages">
 
@@ -33,6 +33,73 @@
 
 <!-- /.package -->
 
+<section class="package" id="lapack-base-dge-trans-unreleased">
+
+#### [@stdlib/lapack/base/dge-trans](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/dge-trans)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6515b3b`](https://github.com/stdlib-js/stdlib/commit/6515b3b3faa2faafefa945c04e5c6edb6596d5d7) - add `lapack/base/sge-trans` [(#2786)](https://github.com/stdlib-js/stdlib/pull/2786)
+-   [`cd5ad1c`](https://github.com/stdlib-js/stdlib/commit/cd5ad1cf89fe37a15b6192b6b2961aeb0470803f) - add `lapack/base/dge-trans` [(#2734)](https://github.com/stdlib-js/stdlib/pull/2734)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="lapack-base-dlaswp-unreleased">
+
+#### [@stdlib/lapack/base/dlaswp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/dlaswp)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3646d49`](https://github.com/stdlib-js/stdlib/commit/3646d490449e83e4db4130b6a16544674550f5c7) - add `lapack/base/slaswp` [(#2757)](https://github.com/stdlib-js/stdlib/pull/2757)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="lapack-base-sge-trans-unreleased">
+
+#### [@stdlib/lapack/base/sge-trans](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/sge-trans)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6515b3b`](https://github.com/stdlib-js/stdlib/commit/6515b3b3faa2faafefa945c04e5c6edb6596d5d7) - add `lapack/base/sge-trans` [(#2786)](https://github.com/stdlib-js/stdlib/pull/2786)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="lapack-base-slacpy-unreleased">
 
 #### [@stdlib/lapack/base/slacpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/slacpy)
@@ -44,6 +111,28 @@
 ##### Features
 
 -   [`ba0f3a0`](https://github.com/stdlib-js/stdlib/commit/ba0f3a07b022febd62d4f5f9616dff0c1648bf5a) - add `lapack/base/slacpy` [(#2716)](https://github.com/stdlib-js/stdlib/pull/2716)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="lapack-base-slaswp-unreleased">
+
+#### [@stdlib/lapack/base/slaswp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/slaswp)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3646d49`](https://github.com/stdlib-js/stdlib/commit/3646d490449e83e4db4130b6a16544674550f5c7) - add `lapack/base/slaswp` [(#2757)](https://github.com/stdlib-js/stdlib/pull/2757)
 
 </section>
 
@@ -100,6 +189,11 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`df3ed1e`](https://github.com/stdlib-js/stdlib/commit/df3ed1ee7fdc62c9f49bfa38eb1df240fb752a6e) - **docs:** update namespace ToCs _(by Athan Reines)_
+-   [`6515b3b`](https://github.com/stdlib-js/stdlib/commit/6515b3b3faa2faafefa945c04e5c6edb6596d5d7) - **feat:** add `lapack/base/sge-trans` [(#2786)](https://github.com/stdlib-js/stdlib/pull/2786) _(by Pranav Goswami, Athan Reines)_
+-   [`584cd8d`](https://github.com/stdlib-js/stdlib/commit/584cd8d5bd602d00d51219203ad3dabf472dde01) - **docs:** fix description _(by Athan Reines)_
+-   [`cd5ad1c`](https://github.com/stdlib-js/stdlib/commit/cd5ad1cf89fe37a15b6192b6b2961aeb0470803f) - **feat:** add `lapack/base/dge-trans` [(#2734)](https://github.com/stdlib-js/stdlib/pull/2734) _(by Pranav Goswami, Athan Reines)_
+-   [`3646d49`](https://github.com/stdlib-js/stdlib/commit/3646d490449e83e4db4130b6a16544674550f5c7) - **feat:** add `lapack/base/slaswp` [(#2757)](https://github.com/stdlib-js/stdlib/pull/2757) _(by Pranav Goswami, Athan Reines)_
 -   [`febbe2e`](https://github.com/stdlib-js/stdlib/commit/febbe2ea07112261b50174ddaf03322374680fdc) - **feat:** add `slacpy` and `spttrf` to namespace _(by Athan Reines)_
 -   [`5e01b28`](https://github.com/stdlib-js/stdlib/commit/5e01b28c0cb96ba9d76ded9757788973a46d19c5) - **feat:** add `lapack/base/spttrf` [(#2724)](https://github.com/stdlib-js/stdlib/pull/2724) _(by Pranav Goswami, Athan Reines)_
 -   [`ba0f3a0`](https://github.com/stdlib-js/stdlib/commit/ba0f3a07b022febd62d4f5f9616dff0c1648bf5a) - **feat:** add `lapack/base/slacpy` [(#2716)](https://github.com/stdlib-js/stdlib/pull/2716) _(by Pranav Goswami, Athan Reines)_
@@ -116,6 +210,8 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.release -->
+
+<section class="release" id="v0.1.0">
 
 ## 0.1.0 (2024-07-29)
 
@@ -218,10 +314,9 @@ A total of 2 people contributed to this release. Thank you to the following cont
 ##### BREAKING CHANGES
 
 -   [`812e033`](https://github.com/stdlib-js/stdlib/commit/812e0334a74ea13f3e0bf0e3ed3453c1933f8d43): remove `order` argument from `ndarray` method
--   [`812e033`](https://github.com/stdlib-js/stdlib/commit/812e0334a74ea13f3e0bf0e3ed3453c1933f8d43): remove `order` argument from `ndarray` method 
 
     -   To migrate, users should drop the `order` argument when invoking
-    the `ndarray` method.
+        the `ndarray` method.
 
 </section>
 
@@ -264,10 +359,9 @@ A total of 2 people contributed to this release. Thank you to the following cont
 ### BREAKING CHANGES
 
 -   [`812e033`](https://github.com/stdlib-js/stdlib/commit/812e0334a74ea13f3e0bf0e3ed3453c1933f8d43): remove `order` argument from `ndarray` method
--   [`812e033`](https://github.com/stdlib-js/stdlib/commit/812e0334a74ea13f3e0bf0e3ed3453c1933f8d43): remove `order` argument from `ndarray` method 
 
     -   To migrate, users should drop the `order` argument when invoking
-    the `ndarray` method.
+        the `ndarray` method.
 
 </section>
 
@@ -317,4 +411,8 @@ A total of 3 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+</section>
+
+<!-- /.release -->
 
