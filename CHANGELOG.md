@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-17)
+## Unreleased (2024-11-20)
 
 <section class="packages">
 
@@ -20,12 +20,25 @@
 
 ##### Features
 
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 -   [`febbe2e`](https://github.com/stdlib-js/stdlib/commit/febbe2ea07112261b50174ddaf03322374680fdc) - add `slacpy` and `spttrf` to namespace
 -   [`0b89aa1`](https://github.com/stdlib-js/stdlib/commit/0b89aa1ac2df073fcf9dd05960881f352d8920e5) - update namespace TypeScript declarations [(#2710)](https://github.com/stdlib-js/stdlib/pull/2710)
 
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
+
+    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -45,6 +58,28 @@
 
 -   [`6515b3b`](https://github.com/stdlib-js/stdlib/commit/6515b3b3faa2faafefa945c04e5c6edb6596d5d7) - add `lapack/base/sge-trans` [(#2786)](https://github.com/stdlib-js/stdlib/pull/2786)
 -   [`cd5ad1c`](https://github.com/stdlib-js/stdlib/commit/cd5ad1cf89fe37a15b6192b6b2961aeb0470803f) - add `lapack/base/dge-trans` [(#2734)](https://github.com/stdlib-js/stdlib/pull/2734)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="lapack-base-dlamch-unreleased">
+
+#### [@stdlib/lapack/base/dlamch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/dlamch)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`536f5db`](https://github.com/stdlib-js/stdlib/commit/536f5dbb8b2170a59f8a0c0181d85889181d8a99) - add `lapack/base/dlamch` [(#2568)](https://github.com/stdlib-js/stdlib/pull/2568)
 
 </section>
 
@@ -170,13 +205,26 @@
 
 <!-- /.packages -->
 
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
+
+    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="contributors">
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
 -   Pranav Goswami
 
 </section>
@@ -189,6 +237,11 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
+-   [`08f9c1a`](https://github.com/stdlib-js/stdlib/commit/08f9c1af6dee1cc36cda84b10230500e75d53ff5) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`e0cef99`](https://github.com/stdlib-js/stdlib/commit/e0cef995e884021db3001dc1a3cfef0ca7b368c2) - **style:** remove extra spaces for regular expressions in publish script _(by Philipp Burckhardt)_
+-   [`536f5db`](https://github.com/stdlib-js/stdlib/commit/536f5dbb8b2170a59f8a0c0181d85889181d8a99) - **feat:** add `lapack/base/dlamch` [(#2568)](https://github.com/stdlib-js/stdlib/pull/2568) _(by Pranav Goswami, Athan Reines)_
 -   [`df3ed1e`](https://github.com/stdlib-js/stdlib/commit/df3ed1ee7fdc62c9f49bfa38eb1df240fb752a6e) - **docs:** update namespace ToCs _(by Athan Reines)_
 -   [`6515b3b`](https://github.com/stdlib-js/stdlib/commit/6515b3b3faa2faafefa945c04e5c6edb6596d5d7) - **feat:** add `lapack/base/sge-trans` [(#2786)](https://github.com/stdlib-js/stdlib/pull/2786) _(by Pranav Goswami, Athan Reines)_
 -   [`584cd8d`](https://github.com/stdlib-js/stdlib/commit/584cd8d5bd602d00d51219203ad3dabf472dde01) - **docs:** fix description _(by Athan Reines)_
