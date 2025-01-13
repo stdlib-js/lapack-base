@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-23)
+## Unreleased (2025-01-13)
 
 <section class="packages">
 
@@ -201,6 +201,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="lapack-base-zlacpy-unreleased">
+
+#### [@stdlib/lapack/base/zlacpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/zlacpy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5e9a3e9`](https://github.com/stdlib-js/stdlib/commit/5e9a3e996d3494379ad6396856ee3a1fd0c06a61) - add `lapack/base/zlacpy` [(#4703)](https://github.com/stdlib-js/stdlib/pull/4703)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -221,11 +243,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Philipp Burckhardt
 -   Pranav Goswami
+-   Ricky Reusser
 
 </section>
 
@@ -237,6 +260,22 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`1024672`](https://github.com/stdlib-js/stdlib/commit/10246726f20f36d6322d74160e6f4d54805b02e4) - **docs:** update namespace TypeScript declaration comments [(#4729)](https://github.com/stdlib-js/stdlib/pull/4729) _(by stdlib-bot)_
+-   [`5e9a3e9`](https://github.com/stdlib-js/stdlib/commit/5e9a3e996d3494379ad6396856ee3a1fd0c06a61) - **feat:** add `lapack/base/zlacpy` [(#4703)](https://github.com/stdlib-js/stdlib/pull/4703) _(by Ricky Reusser, Athan Reines, stdlib-bot)_
+-   [`59f2160`](https://github.com/stdlib-js/stdlib/commit/59f2160b0a5fb8d0449b564d58feb5fd16c4e4f0) - **docs:** update examples _(by Athan Reines)_
+-   [`2e48726`](https://github.com/stdlib-js/stdlib/commit/2e48726f243a6aec47a6c1e748cfd0faefea9216) - **docs:** update examples _(by Athan Reines)_
+-   [`1f5d811`](https://github.com/stdlib-js/stdlib/commit/1f5d811a759c1604e8620a12fad29dde86bfff50) - **docs:** update examples _(by Athan Reines)_
+-   [`cd9b87d`](https://github.com/stdlib-js/stdlib/commit/cd9b87d4d39f80c98731c2612e3b7d5017e3f367) - **docs:** update examples _(by Athan Reines)_
+-   [`d7896b5`](https://github.com/stdlib-js/stdlib/commit/d7896b570f2252c464c3ac25222e4d7602401e20) - **docs:** update examples _(by Athan Reines)_
+-   [`3fdc2ab`](https://github.com/stdlib-js/stdlib/commit/3fdc2abb2fc6e512e08489a24513abff4db6e347) - **docs:** update examples _(by Athan Reines)_
+-   [`0db19ee`](https://github.com/stdlib-js/stdlib/commit/0db19eee3d3827e40cdbb9098fcec66205925d15) - **docs:** improve example clarity _(by Athan Reines)_
+-   [`9dc7363`](https://github.com/stdlib-js/stdlib/commit/9dc736335ae16107240ffb47284ff93e7e15e826) - **docs:** improve example clarity _(by Athan Reines)_
+-   [`610eff4`](https://github.com/stdlib-js/stdlib/commit/610eff41484d40b5bce72d51099b624c55955ee9) - **docs:** update examples _(by Athan Reines)_
+-   [`dc62ca4`](https://github.com/stdlib-js/stdlib/commit/dc62ca45415b32347eb7354a12c01a9b5bb5c436) - **docs:** update examples _(by Athan Reines)_
+-   [`685d5e1`](https://github.com/stdlib-js/stdlib/commit/685d5e1c76b6685eb27fa43e96755f3aa08856a7) - **test:** update test values to resolve ambiguity in expected values _(by Athan Reines)_
+-   [`b24284b`](https://github.com/stdlib-js/stdlib/commit/b24284bcc4a781d2ef01efc6bb1f0c8fd631dcb3) - **test:** improve test values to resolve ambiguity in expected values _(by Athan Reines)_
+-   [`321e49e`](https://github.com/stdlib-js/stdlib/commit/321e49e9965648f1b5eb6a840fe454959af0ec49) - **docs:** add missing periods to list items _(by Philipp Burckhardt)_
+-   [`e4a53d5`](https://github.com/stdlib-js/stdlib/commit/e4a53d5816f5918f7c7fc5135dce21d676835eca) - **docs:** update related packages sections [(#4399)](https://github.com/stdlib-js/stdlib/pull/4399) _(by stdlib-bot)_
 -   [`6c020d3`](https://github.com/stdlib-js/stdlib/commit/6c020d33665c4aec232196fd86214b296ddc7d36) - **chore:** use relative paths to load package.json file _(by Philipp Burckhardt)_
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
