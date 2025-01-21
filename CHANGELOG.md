@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-13)
+## Unreleased (2025-01-21)
 
 <section class="packages">
 
@@ -20,6 +20,17 @@
 
 ##### Features
 
+-   [`a242756`](https://github.com/stdlib-js/stdlib/commit/a2427567611f02b499c66554c1c9e8a8f8a544f5) - add `claset` to namespace
+-   [`5b6f583`](https://github.com/stdlib-js/stdlib/commit/5b6f583e159597ae59fd1c5e4e9efa598748f8d1) - add `clacgv` to namespace
+-   [`7c68b0f`](https://github.com/stdlib-js/stdlib/commit/7c68b0fbbde33f65af2d235f664bf338887cfd39) - add `zrot` to namespace
+-   [`67683bb`](https://github.com/stdlib-js/stdlib/commit/67683bbcbd33517be6b1d8a750ad55c9b198c32b) - add `zlaset` to namespace
+-   [`a882f1a`](https://github.com/stdlib-js/stdlib/commit/a882f1a1bb423c18084cfe2fc8d0a434611cd859) - add `zlacpy` to namespace
+-   [`80ea14a`](https://github.com/stdlib-js/stdlib/commit/80ea14ae09c92bb326136f001d4890853734e48d) - add `zlacgv` to namespace
+-   [`9d0a679`](https://github.com/stdlib-js/stdlib/commit/9d0a6798f51283afb4b99f61cd37c9f1e68b0d24) - add `slaswp` to namespace
+-   [`46b8aef`](https://github.com/stdlib-js/stdlib/commit/46b8aefeb4a07b47bb9e97f339aafb4ebce06cb6) - add `sgetrans` to namespace
+-   [`45eaf02`](https://github.com/stdlib-js/stdlib/commit/45eaf02b738da38753ecd7c45ed29129f6ae149b) - add `dlamch` to namespace
+-   [`847f30e`](https://github.com/stdlib-js/stdlib/commit/847f30ea0c4d5429f65f246df28f810132549a3e) - add `dgetrans` to namespace
+-   [`83dfeb3`](https://github.com/stdlib-js/stdlib/commit/83dfeb39a53c5a78f7487527cdbe80222bff9b26) - add `clacpy` to namespace
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 -   [`febbe2e`](https://github.com/stdlib-js/stdlib/commit/febbe2ea07112261b50174ddaf03322374680fdc) - add `slacpy` and `spttrf` to namespace
 -   [`0b89aa1`](https://github.com/stdlib-js/stdlib/commit/0b89aa1ac2df073fcf9dd05960881f352d8920e5) - update namespace TypeScript declarations [(#2710)](https://github.com/stdlib-js/stdlib/pull/2710)
@@ -39,6 +50,72 @@
 </section>
 
 <!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="lapack-base-clacgv-unreleased">
+
+#### [@stdlib/lapack/base/clacgv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/clacgv)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`0599ed1`](https://github.com/stdlib-js/stdlib/commit/0599ed151008140acb46e6a100de0bb77b1245fe) - add `lapack/base/clacgv`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="lapack-base-clacpy-unreleased">
+
+#### [@stdlib/lapack/base/clacpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/clacpy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`769cda1`](https://github.com/stdlib-js/stdlib/commit/769cda16d60b1f56bc6289d889fede8934dd75db) - add `lapack/base/clacpy`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="lapack-base-claset-unreleased">
+
+#### [@stdlib/lapack/base/claset](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/claset)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c1fef06`](https://github.com/stdlib-js/stdlib/commit/c1fef0653287db93debf75a4475ef93b62c16b8c) - add `lapack/base/claset`
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -201,6 +278,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="lapack-base-zlacgv-unreleased">
+
+#### [@stdlib/lapack/base/zlacgv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/zlacgv)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4e3292d`](https://github.com/stdlib-js/stdlib/commit/4e3292d5f4d82776caafbe046d8ee4a423faee4f) - add `lapack/base/zlacgv` [(#4725)](https://github.com/stdlib-js/stdlib/pull/4725)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="lapack-base-zlacpy-unreleased">
 
 #### [@stdlib/lapack/base/zlacpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/zlacpy)
@@ -212,6 +311,50 @@
 ##### Features
 
 -   [`5e9a3e9`](https://github.com/stdlib-js/stdlib/commit/5e9a3e996d3494379ad6396856ee3a1fd0c06a61) - add `lapack/base/zlacpy` [(#4703)](https://github.com/stdlib-js/stdlib/pull/4703)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="lapack-base-zlaset-unreleased">
+
+#### [@stdlib/lapack/base/zlaset](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/zlaset)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8995729`](https://github.com/stdlib-js/stdlib/commit/8995729d86baba1711ca5c1305ebca1bb990f3ff) - add `lapack/base/zlaset` [(#4789)](https://github.com/stdlib-js/stdlib/pull/4789)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="lapack-base-zrot-unreleased">
+
+#### [@stdlib/lapack/base/zrot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/zrot)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`86163ea`](https://github.com/stdlib-js/stdlib/commit/86163ea9143a5f40e58f1d5c7307eaa07a64a39c) - add `lapack/base/zrot` [(#4772)](https://github.com/stdlib-js/stdlib/pull/4772)
 
 </section>
 
@@ -260,6 +403,28 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`a242756`](https://github.com/stdlib-js/stdlib/commit/a2427567611f02b499c66554c1c9e8a8f8a544f5) - **feat:** add `claset` to namespace _(by Athan Reines)_
+-   [`c1fef06`](https://github.com/stdlib-js/stdlib/commit/c1fef0653287db93debf75a4475ef93b62c16b8c) - **feat:** add `lapack/base/claset` _(by Athan Reines)_
+-   [`0ea6420`](https://github.com/stdlib-js/stdlib/commit/0ea64206c3b8854aaca5ff13c232ed4d3c2d5d56) - **test:** rename file _(by Athan Reines)_
+-   [`f573882`](https://github.com/stdlib-js/stdlib/commit/f57388233077a1f529e5744dca454771dd6e8393) - **docs:** update examples _(by Athan Reines)_
+-   [`dd448bb`](https://github.com/stdlib-js/stdlib/commit/dd448bb3ad2a1f8aa801a7964623a64995057fdf) - **docs:** update examples _(by Athan Reines)_
+-   [`5b6f583`](https://github.com/stdlib-js/stdlib/commit/5b6f583e159597ae59fd1c5e4e9efa598748f8d1) - **feat:** add `clacgv` to namespace _(by Athan Reines)_
+-   [`c86f3f7`](https://github.com/stdlib-js/stdlib/commit/c86f3f7864422879b7ac4979586fab81ac45d3dc) - **style:** align comments _(by Athan Reines)_
+-   [`308244a`](https://github.com/stdlib-js/stdlib/commit/308244a528bc55e3c9a5807fc448f5b094ff468a) - **bench:** use single-precision utilities _(by Athan Reines)_
+-   [`0599ed1`](https://github.com/stdlib-js/stdlib/commit/0599ed151008140acb46e6a100de0bb77b1245fe) - **feat:** add `lapack/base/clacgv` _(by Athan Reines)_
+-   [`7c68b0f`](https://github.com/stdlib-js/stdlib/commit/7c68b0fbbde33f65af2d235f664bf338887cfd39) - **feat:** add `zrot` to namespace _(by Athan Reines)_
+-   [`67683bb`](https://github.com/stdlib-js/stdlib/commit/67683bbcbd33517be6b1d8a750ad55c9b198c32b) - **feat:** add `zlaset` to namespace _(by Athan Reines)_
+-   [`a882f1a`](https://github.com/stdlib-js/stdlib/commit/a882f1a1bb423c18084cfe2fc8d0a434611cd859) - **feat:** add `zlacpy` to namespace _(by Athan Reines)_
+-   [`80ea14a`](https://github.com/stdlib-js/stdlib/commit/80ea14ae09c92bb326136f001d4890853734e48d) - **feat:** add `zlacgv` to namespace _(by Athan Reines)_
+-   [`9d0a679`](https://github.com/stdlib-js/stdlib/commit/9d0a6798f51283afb4b99f61cd37c9f1e68b0d24) - **feat:** add `slaswp` to namespace _(by Athan Reines)_
+-   [`46b8aef`](https://github.com/stdlib-js/stdlib/commit/46b8aefeb4a07b47bb9e97f339aafb4ebce06cb6) - **feat:** add `sgetrans` to namespace _(by Athan Reines)_
+-   [`45eaf02`](https://github.com/stdlib-js/stdlib/commit/45eaf02b738da38753ecd7c45ed29129f6ae149b) - **feat:** add `dlamch` to namespace _(by Athan Reines)_
+-   [`847f30e`](https://github.com/stdlib-js/stdlib/commit/847f30ea0c4d5429f65f246df28f810132549a3e) - **feat:** add `dgetrans` to namespace _(by Athan Reines)_
+-   [`83dfeb3`](https://github.com/stdlib-js/stdlib/commit/83dfeb39a53c5a78f7487527cdbe80222bff9b26) - **feat:** add `clacpy` to namespace _(by Athan Reines)_
+-   [`769cda1`](https://github.com/stdlib-js/stdlib/commit/769cda16d60b1f56bc6289d889fede8934dd75db) - **feat:** add `lapack/base/clacpy` _(by Athan Reines)_
+-   [`8995729`](https://github.com/stdlib-js/stdlib/commit/8995729d86baba1711ca5c1305ebca1bb990f3ff) - **feat:** add `lapack/base/zlaset` [(#4789)](https://github.com/stdlib-js/stdlib/pull/4789) _(by Ricky Reusser, Athan Reines)_
+-   [`4e3292d`](https://github.com/stdlib-js/stdlib/commit/4e3292d5f4d82776caafbe046d8ee4a423faee4f) - **feat:** add `lapack/base/zlacgv` [(#4725)](https://github.com/stdlib-js/stdlib/pull/4725) _(by Ricky Reusser, Athan Reines)_
+-   [`86163ea`](https://github.com/stdlib-js/stdlib/commit/86163ea9143a5f40e58f1d5c7307eaa07a64a39c) - **feat:** add `lapack/base/zrot` [(#4772)](https://github.com/stdlib-js/stdlib/pull/4772) _(by Ricky Reusser, Athan Reines, stdlib-bot)_
 -   [`1024672`](https://github.com/stdlib-js/stdlib/commit/10246726f20f36d6322d74160e6f4d54805b02e4) - **docs:** update namespace TypeScript declaration comments [(#4729)](https://github.com/stdlib-js/stdlib/pull/4729) _(by stdlib-bot)_
 -   [`5e9a3e9`](https://github.com/stdlib-js/stdlib/commit/5e9a3e996d3494379ad6396856ee3a1fd0c06a61) - **feat:** add `lapack/base/zlacpy` [(#4703)](https://github.com/stdlib-js/stdlib/pull/4703) _(by Ricky Reusser, Athan Reines, stdlib-bot)_
 -   [`59f2160`](https://github.com/stdlib-js/stdlib/commit/59f2160b0a5fb8d0449b564d58feb5fd16c4e4f0) - **docs:** update examples _(by Athan Reines)_
