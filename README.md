@@ -35,20 +35,32 @@ limitations under the License.
 
 > Base (i.e., lower-level) linear algebra package (LAPACK) routines.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/lapack-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import lapack from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { clacgv, clacpy, claset, crot, dgetrans, dlacpy, dlamch, dlassq, dlaswp, dpttrf, sgetrans, slacpy, slaswp, spttrf, zlacgv, zlacpy, zlaset, zrot } from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base@deno/mod.js';
+var lapack = require( '@stdlib/lapack-base' );
 ```
 
 #### lapack
@@ -66,12 +78,24 @@ The namespace contains the following:
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`clacgv( N, cx, strideCX )`][@stdlib/lapack/base/clacgv]</span><span class="delimiter">: </span><span class="description">conjugate each element in a single-precision complex floating-point vector.</span>
+-   <span class="signature">[`clacpy( order, uplo, M, N, A, LDA, B, LDB )`][@stdlib/lapack/base/clacpy]</span><span class="delimiter">: </span><span class="description">copy all or part of a matrix `A` to another matrix `B`.</span>
+-   <span class="signature">[`claset( order, uplo, M, N, alpha, beta, A, LDA )`][@stdlib/lapack/base/claset]</span><span class="delimiter">: </span><span class="description">set the off-diagonal elements and the diagonal elements of a single-precision complex floating-point matrix to specified values.</span>
+-   <span class="signature">[`crot( N, cx, strideCX, cy, strideCY, c, s )`][@stdlib/lapack/base/crot]</span><span class="delimiter">: </span><span class="description">apply a plane rotation with real cosine and complex sine to a pair of single-precision complex floating-point vectors.</span>
+-   <span class="signature">[`dgetrans( order, M, N, A, LDA, out, LDO )`][@stdlib/lapack/base/dge-trans]</span><span class="delimiter">: </span><span class="description">convert a matrix from row-major layout to column-major layout or vice versa.</span>
 -   <span class="signature">[`dlacpy( order, uplo, M, N, A, LDA, B, LDB )`][@stdlib/lapack/base/dlacpy]</span><span class="delimiter">: </span><span class="description">copy all or part of a matrix `A` to another matrix `B`.</span>
+-   <span class="signature">[`dlamch( cmach )`][@stdlib/lapack/base/dlamch]</span><span class="delimiter">: </span><span class="description">determine double-precision floating-point machine parameters.</span>
 -   <span class="signature">[`dlassq( N, X, strideX, scale, sumsq )`][@stdlib/lapack/base/dlassq]</span><span class="delimiter">: </span><span class="description">return an updated sum of squares represented in scaled form.</span>
 -   <span class="signature">[`dlaswp( N, A, LDA, k1, k2, IPIV, incx )`][@stdlib/lapack/base/dlaswp]</span><span class="delimiter">: </span><span class="description">perform a series of row interchanges on an input matrix.</span>
 -   <span class="signature">[`dpttrf( N, D, E )`][@stdlib/lapack/base/dpttrf]</span><span class="delimiter">: </span><span class="description">compute the `L * D * L^T` factorization of a real symmetric positive definite tridiagonal matrix `A`.</span>
+-   <span class="signature">[`sgetrans( order, M, N, A, LDA, out, LDO )`][@stdlib/lapack/base/sge-trans]</span><span class="delimiter">: </span><span class="description">convert a matrix from row-major layout to column-major layout or vice versa.</span>
 -   <span class="signature">[`slacpy( order, uplo, M, N, A, LDA, B, LDB )`][@stdlib/lapack/base/slacpy]</span><span class="delimiter">: </span><span class="description">copy all or part of a matrix `A` to another matrix `B`.</span>
+-   <span class="signature">[`slaswp( N, A, LDA, k1, k2, IPIV, incx )`][@stdlib/lapack/base/slaswp]</span><span class="delimiter">: </span><span class="description">perform a series of row interchanges on an input matrix.</span>
 -   <span class="signature">[`spttrf( N, D, E )`][@stdlib/lapack/base/spttrf]</span><span class="delimiter">: </span><span class="description">compute the `L * D * L^T` factorization of a real symmetric positive definite tridiagonal matrix `A`.</span>
+-   <span class="signature">[`zlacgv( N, zx, strideZX )`][@stdlib/lapack/base/zlacgv]</span><span class="delimiter">: </span><span class="description">conjugate each element in a double-precision complex floating-point vector.</span>
+-   <span class="signature">[`zlacpy( order, uplo, M, N, A, LDA, B, LDB )`][@stdlib/lapack/base/zlacpy]</span><span class="delimiter">: </span><span class="description">copy all or part of a matrix `A` to another matrix `B`.</span>
+-   <span class="signature">[`zlaset( order, uplo, M, N, alpha, beta, A, LDA )`][@stdlib/lapack/base/zlaset]</span><span class="delimiter">: </span><span class="description">set the off-diagonal elements and the diagonal elements of a double-precision complex floating-point matrix to specified values.</span>
+-   <span class="signature">[`zrot( N, zx, strideX, zy, strideY, c, s )`][@stdlib/lapack/base/zrot]</span><span class="delimiter">: </span><span class="description">apply a plane rotation with real cosine and complex sine to a pair of double-precision complex floating-point vectors.</span>
 
 </div>
 
@@ -90,8 +114,8 @@ The namespace contains the following:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import lapack from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base@deno/mod.js';
+var objectKeys = require( '@stdlib/utils-keys' );
+var lapack = require( '@stdlib/lapack-base' );
 
 console.log( objectKeys( lapack ) );
 ```
@@ -117,7 +141,7 @@ console.log( objectKeys( lapack ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -182,17 +206,41 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/lapack/base/dlacpy]: https://github.com/stdlib-js/lapack-base-dlacpy/tree/deno
+[@stdlib/lapack/base/clacgv]: https://github.com/stdlib-js/lapack-base-clacgv
 
-[@stdlib/lapack/base/dlassq]: https://github.com/stdlib-js/lapack-base-dlassq/tree/deno
+[@stdlib/lapack/base/clacpy]: https://github.com/stdlib-js/lapack-base-clacpy
 
-[@stdlib/lapack/base/dlaswp]: https://github.com/stdlib-js/lapack-base-dlaswp/tree/deno
+[@stdlib/lapack/base/claset]: https://github.com/stdlib-js/lapack-base-claset
 
-[@stdlib/lapack/base/dpttrf]: https://github.com/stdlib-js/lapack-base-dpttrf/tree/deno
+[@stdlib/lapack/base/crot]: https://github.com/stdlib-js/lapack-base-crot
 
-[@stdlib/lapack/base/slacpy]: https://github.com/stdlib-js/lapack-base-slacpy/tree/deno
+[@stdlib/lapack/base/dge-trans]: https://github.com/stdlib-js/lapack-base-dge-trans
 
-[@stdlib/lapack/base/spttrf]: https://github.com/stdlib-js/lapack-base-spttrf/tree/deno
+[@stdlib/lapack/base/dlacpy]: https://github.com/stdlib-js/lapack-base-dlacpy
+
+[@stdlib/lapack/base/dlamch]: https://github.com/stdlib-js/lapack-base-dlamch
+
+[@stdlib/lapack/base/dlassq]: https://github.com/stdlib-js/lapack-base-dlassq
+
+[@stdlib/lapack/base/dlaswp]: https://github.com/stdlib-js/lapack-base-dlaswp
+
+[@stdlib/lapack/base/dpttrf]: https://github.com/stdlib-js/lapack-base-dpttrf
+
+[@stdlib/lapack/base/sge-trans]: https://github.com/stdlib-js/lapack-base-sge-trans
+
+[@stdlib/lapack/base/slacpy]: https://github.com/stdlib-js/lapack-base-slacpy
+
+[@stdlib/lapack/base/slaswp]: https://github.com/stdlib-js/lapack-base-slaswp
+
+[@stdlib/lapack/base/spttrf]: https://github.com/stdlib-js/lapack-base-spttrf
+
+[@stdlib/lapack/base/zlacgv]: https://github.com/stdlib-js/lapack-base-zlacgv
+
+[@stdlib/lapack/base/zlacpy]: https://github.com/stdlib-js/lapack-base-zlacpy
+
+[@stdlib/lapack/base/zlaset]: https://github.com/stdlib-js/lapack-base-zlaset
+
+[@stdlib/lapack/base/zrot]: https://github.com/stdlib-js/lapack-base-zrot
 
 <!-- </toc-links> -->
 
