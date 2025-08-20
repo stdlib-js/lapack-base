@@ -35,20 +35,32 @@ limitations under the License.
 
 > Base (i.e., lower-level) linear algebra package (LAPACK) routines.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/lapack-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import lapack from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { clacgv, clacpy, claset, crot, dgetrans, dlacpy, dlamch, dlassq, dlaswp, dpttrf, sgetrans, slacpy, slaswp, spttrf, zlacgv, zlacpy, zlaset, zrot } from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base@esm/index.mjs';
+var lapack = require( '@stdlib/lapack-base' );
 ```
 
 #### lapack
@@ -101,20 +113,11 @@ The namespace contains the following:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import lapack from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var lapack = require( '@stdlib/lapack-base' );
 
 console.log( objectKeys( lapack ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -138,7 +141,7 @@ console.log( objectKeys( lapack ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -203,41 +206,41 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/lapack/base/clacgv]: https://github.com/stdlib-js/lapack-base-clacgv/tree/esm
+[@stdlib/lapack/base/clacgv]: https://github.com/stdlib-js/lapack-base-clacgv
 
-[@stdlib/lapack/base/clacpy]: https://github.com/stdlib-js/lapack-base-clacpy/tree/esm
+[@stdlib/lapack/base/clacpy]: https://github.com/stdlib-js/lapack-base-clacpy
 
-[@stdlib/lapack/base/claset]: https://github.com/stdlib-js/lapack-base-claset/tree/esm
+[@stdlib/lapack/base/claset]: https://github.com/stdlib-js/lapack-base-claset
 
-[@stdlib/lapack/base/crot]: https://github.com/stdlib-js/lapack-base-crot/tree/esm
+[@stdlib/lapack/base/crot]: https://github.com/stdlib-js/lapack-base-crot
 
-[@stdlib/lapack/base/dge-trans]: https://github.com/stdlib-js/lapack-base-dge-trans/tree/esm
+[@stdlib/lapack/base/dge-trans]: https://github.com/stdlib-js/lapack-base-dge-trans
 
-[@stdlib/lapack/base/dlacpy]: https://github.com/stdlib-js/lapack-base-dlacpy/tree/esm
+[@stdlib/lapack/base/dlacpy]: https://github.com/stdlib-js/lapack-base-dlacpy
 
-[@stdlib/lapack/base/dlamch]: https://github.com/stdlib-js/lapack-base-dlamch/tree/esm
+[@stdlib/lapack/base/dlamch]: https://github.com/stdlib-js/lapack-base-dlamch
 
-[@stdlib/lapack/base/dlassq]: https://github.com/stdlib-js/lapack-base-dlassq/tree/esm
+[@stdlib/lapack/base/dlassq]: https://github.com/stdlib-js/lapack-base-dlassq
 
-[@stdlib/lapack/base/dlaswp]: https://github.com/stdlib-js/lapack-base-dlaswp/tree/esm
+[@stdlib/lapack/base/dlaswp]: https://github.com/stdlib-js/lapack-base-dlaswp
 
-[@stdlib/lapack/base/dpttrf]: https://github.com/stdlib-js/lapack-base-dpttrf/tree/esm
+[@stdlib/lapack/base/dpttrf]: https://github.com/stdlib-js/lapack-base-dpttrf
 
-[@stdlib/lapack/base/sge-trans]: https://github.com/stdlib-js/lapack-base-sge-trans/tree/esm
+[@stdlib/lapack/base/sge-trans]: https://github.com/stdlib-js/lapack-base-sge-trans
 
-[@stdlib/lapack/base/slacpy]: https://github.com/stdlib-js/lapack-base-slacpy/tree/esm
+[@stdlib/lapack/base/slacpy]: https://github.com/stdlib-js/lapack-base-slacpy
 
-[@stdlib/lapack/base/slaswp]: https://github.com/stdlib-js/lapack-base-slaswp/tree/esm
+[@stdlib/lapack/base/slaswp]: https://github.com/stdlib-js/lapack-base-slaswp
 
-[@stdlib/lapack/base/spttrf]: https://github.com/stdlib-js/lapack-base-spttrf/tree/esm
+[@stdlib/lapack/base/spttrf]: https://github.com/stdlib-js/lapack-base-spttrf
 
-[@stdlib/lapack/base/zlacgv]: https://github.com/stdlib-js/lapack-base-zlacgv/tree/esm
+[@stdlib/lapack/base/zlacgv]: https://github.com/stdlib-js/lapack-base-zlacgv
 
-[@stdlib/lapack/base/zlacpy]: https://github.com/stdlib-js/lapack-base-zlacpy/tree/esm
+[@stdlib/lapack/base/zlacpy]: https://github.com/stdlib-js/lapack-base-zlacpy
 
-[@stdlib/lapack/base/zlaset]: https://github.com/stdlib-js/lapack-base-zlaset/tree/esm
+[@stdlib/lapack/base/zlaset]: https://github.com/stdlib-js/lapack-base-zlaset
 
-[@stdlib/lapack/base/zrot]: https://github.com/stdlib-js/lapack-base-zrot/tree/esm
+[@stdlib/lapack/base/zrot]: https://github.com/stdlib-js/lapack-base-zrot
 
 <!-- </toc-links> -->
 
