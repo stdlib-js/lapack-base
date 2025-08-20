@@ -4,26 +4,32 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-22)
-
-<section class="packages">
-
-### Packages
-
-<section class="package" id="lapack-base-unreleased">
-
-#### [@stdlib/lapack/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base)
-
-<details>
+## Unreleased (2025-08-20)
 
 <section class="features">
 
-##### Features
+### Features
 
+-   [`fb9d401`](https://github.com/stdlib-js/stdlib/commit/fb9d4016b7ae28a2f2a68188eace05bbb9be44ff) - add missing functions to namespace
+-   [`59f3ca9`](https://github.com/stdlib-js/stdlib/commit/59f3ca930abd58ce6d8ce9d74f0389b7d7f0e847) - add C implementation
+-   [`b798293`](https://github.com/stdlib-js/stdlib/commit/b798293de89c22ced40a44a8bd751736ab2035c5) - add initial `lapack/base/xerbla`
+-   [`9f5cf9c`](https://github.com/stdlib-js/stdlib/commit/9f5cf9c9fa0c7f9d9c967d510d89c15781c66b34) - add error codes
+-   [`25ef497`](https://github.com/stdlib-js/stdlib/commit/25ef49759c944e033f329795fe9ada2a5e296e5b) - add `lapack/base/shared`
+-   [`01d9619`](https://github.com/stdlib-js/stdlib/commit/01d9619612325b9d7a3429a4aa714929762e7beb) - add `lapack/base/dlaset` [(#7467)](https://github.com/stdlib-js/stdlib/pull/7467)
+-   [`86ac66b`](https://github.com/stdlib-js/stdlib/commit/86ac66b74c8df1c04407cb4160051621e8ce3da8) - add `lapack/base/iladlc` [(#7083)](https://github.com/stdlib-js/stdlib/pull/7083)
+-   [`f3c3d72`](https://github.com/stdlib-js/stdlib/commit/f3c3d72625ae483437a06f9e5f2da38354aa7ef1) - add `lapack/base/iladlr` [(#7076)](https://github.com/stdlib-js/stdlib/pull/7076)
+-   [`fa8250e`](https://github.com/stdlib-js/stdlib/commit/fa8250e71f95a3a9c5be81affa3d7bd634370cd5) - add `lapack/base/dlapy3` [(#7144)](https://github.com/stdlib-js/stdlib/pull/7144)
+-   [`962d072`](https://github.com/stdlib-js/stdlib/commit/962d0727294945bd6570dbe2d7e39625f9469d3a) - add `lapack/base/dlapy2` [(#7120)](https://github.com/stdlib-js/stdlib/pull/7120)
+-   [`54b8104`](https://github.com/stdlib-js/stdlib/commit/54b810456e845ffc01712d66cc773a1613884767) - add `lapack/base/dgttrf` [(#5754)](https://github.com/stdlib-js/stdlib/pull/5754)
+-   [`41f4b7a`](https://github.com/stdlib-js/stdlib/commit/41f4b7adff17197d04cc261c774bfb6601cc6e2c) - add `lapack/base/claswp` [(#5525)](https://github.com/stdlib-js/stdlib/pull/5525)
+-   [`e7f973d`](https://github.com/stdlib-js/stdlib/commit/e7f973d92279cc05d82c9d330fc2398a80971253) - add `lapack/base/zlaswp` [(#5496)](https://github.com/stdlib-js/stdlib/pull/5496)
 -   [`8e8437c`](https://github.com/stdlib-js/stdlib/commit/8e8437c92781ac1873dc5df96daae1ef17a2ce1f) - update namespace TypeScript declarations [(#4843)](https://github.com/stdlib-js/stdlib/pull/4843)
 -   [`5672a23`](https://github.com/stdlib-js/stdlib/commit/5672a237940993661dadb9023f27f08e93683ad0) - add `crot` to namespace
+-   [`19972bb`](https://github.com/stdlib-js/stdlib/commit/19972bbd6ddf6bf8b7fbc8f61c9da84e73483da6) - add `lapack/base/crot`
 -   [`a242756`](https://github.com/stdlib-js/stdlib/commit/a2427567611f02b499c66554c1c9e8a8f8a544f5) - add `claset` to namespace
+-   [`c1fef06`](https://github.com/stdlib-js/stdlib/commit/c1fef0653287db93debf75a4475ef93b62c16b8c) - add `lapack/base/claset`
 -   [`5b6f583`](https://github.com/stdlib-js/stdlib/commit/5b6f583e159597ae59fd1c5e4e9efa598748f8d1) - add `clacgv` to namespace
+-   [`0599ed1`](https://github.com/stdlib-js/stdlib/commit/0599ed151008140acb46e6a100de0bb77b1245fe) - add `lapack/base/clacgv`
 -   [`7c68b0f`](https://github.com/stdlib-js/stdlib/commit/7c68b0fbbde33f65af2d235f664bf338887cfd39) - add `zrot` to namespace
 -   [`67683bb`](https://github.com/stdlib-js/stdlib/commit/67683bbcbd33517be6b1d8a750ad55c9b198c32b) - add `zlaset` to namespace
 -   [`a882f1a`](https://github.com/stdlib-js/stdlib/commit/a882f1a1bb423c18084cfe2fc8d0a434611cd859) - add `zlacpy` to namespace
@@ -33,370 +39,35 @@
 -   [`45eaf02`](https://github.com/stdlib-js/stdlib/commit/45eaf02b738da38753ecd7c45ed29129f6ae149b) - add `dlamch` to namespace
 -   [`847f30e`](https://github.com/stdlib-js/stdlib/commit/847f30ea0c4d5429f65f246df28f810132549a3e) - add `dgetrans` to namespace
 -   [`83dfeb3`](https://github.com/stdlib-js/stdlib/commit/83dfeb39a53c5a78f7487527cdbe80222bff9b26) - add `clacpy` to namespace
+-   [`769cda1`](https://github.com/stdlib-js/stdlib/commit/769cda16d60b1f56bc6289d889fede8934dd75db) - add `lapack/base/clacpy`
+-   [`8995729`](https://github.com/stdlib-js/stdlib/commit/8995729d86baba1711ca5c1305ebca1bb990f3ff) - add `lapack/base/zlaset` [(#4789)](https://github.com/stdlib-js/stdlib/pull/4789)
+-   [`4e3292d`](https://github.com/stdlib-js/stdlib/commit/4e3292d5f4d82776caafbe046d8ee4a423faee4f) - add `lapack/base/zlacgv` [(#4725)](https://github.com/stdlib-js/stdlib/pull/4725)
+-   [`86163ea`](https://github.com/stdlib-js/stdlib/commit/86163ea9143a5f40e58f1d5c7307eaa07a64a39c) - add `lapack/base/zrot` [(#4772)](https://github.com/stdlib-js/stdlib/pull/4772)
+-   [`5e9a3e9`](https://github.com/stdlib-js/stdlib/commit/5e9a3e996d3494379ad6396856ee3a1fd0c06a61) - add `lapack/base/zlacpy` [(#4703)](https://github.com/stdlib-js/stdlib/pull/4703)
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
+-   [`536f5db`](https://github.com/stdlib-js/stdlib/commit/536f5dbb8b2170a59f8a0c0181d85889181d8a99) - add `lapack/base/dlamch` [(#2568)](https://github.com/stdlib-js/stdlib/pull/2568)
+-   [`6515b3b`](https://github.com/stdlib-js/stdlib/commit/6515b3b3faa2faafefa945c04e5c6edb6596d5d7) - add `lapack/base/sge-trans` [(#2786)](https://github.com/stdlib-js/stdlib/pull/2786)
+-   [`cd5ad1c`](https://github.com/stdlib-js/stdlib/commit/cd5ad1cf89fe37a15b6192b6b2961aeb0470803f) - add `lapack/base/dge-trans` [(#2734)](https://github.com/stdlib-js/stdlib/pull/2734)
+-   [`3646d49`](https://github.com/stdlib-js/stdlib/commit/3646d490449e83e4db4130b6a16544674550f5c7) - add `lapack/base/slaswp` [(#2757)](https://github.com/stdlib-js/stdlib/pull/2757)
 -   [`febbe2e`](https://github.com/stdlib-js/stdlib/commit/febbe2ea07112261b50174ddaf03322374680fdc) - add `slacpy` and `spttrf` to namespace
+-   [`5e01b28`](https://github.com/stdlib-js/stdlib/commit/5e01b28c0cb96ba9d76ded9757788973a46d19c5) - add `lapack/base/spttrf` [(#2724)](https://github.com/stdlib-js/stdlib/pull/2724)
+-   [`ba0f3a0`](https://github.com/stdlib-js/stdlib/commit/ba0f3a07b022febd62d4f5f9616dff0c1648bf5a) - add `lapack/base/slacpy` [(#2716)](https://github.com/stdlib-js/stdlib/pull/2716)
 -   [`0b89aa1`](https://github.com/stdlib-js/stdlib/commit/0b89aa1ac2df073fcf9dd05960881f352d8920e5) - update namespace TypeScript declarations [(#2710)](https://github.com/stdlib-js/stdlib/pull/2710)
 
 </section>
 
 <!-- /.features -->
 
-<section class="breaking-changes">
+<section class="bug-fixes">
 
-##### BREAKING CHANGES
+### Bug Fixes
 
--   [`8e8437c`](https://github.com/stdlib-js/stdlib/commit/8e8437c92781ac1873dc5df96daae1ef17a2ce1f): remove `stats/base/dcumaxabs`
-
-    -   To migrate, users should access `dcumaxabs` via the `stats/strided` namespace.
-
--   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
-
-    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
+-   [`933ae5e`](https://github.com/stdlib-js/stdlib/commit/933ae5eaa70b01019a3b8880d2666dddbd129298) - remove xerbla from namespaces
+-   [`f51b061`](https://github.com/stdlib-js/stdlib/commit/f51b061fd0ed716d4c7ea79a49b838234dc55bef) - rename symbol to avoid conflict
 
 </section>
 
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="lapack-base-clacgv-unreleased">
-
-#### [@stdlib/lapack/base/clacgv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/clacgv)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0599ed1`](https://github.com/stdlib-js/stdlib/commit/0599ed151008140acb46e6a100de0bb77b1245fe) - add `lapack/base/clacgv`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="lapack-base-clacpy-unreleased">
-
-#### [@stdlib/lapack/base/clacpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/clacpy)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`769cda1`](https://github.com/stdlib-js/stdlib/commit/769cda16d60b1f56bc6289d889fede8934dd75db) - add `lapack/base/clacpy`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="lapack-base-claset-unreleased">
-
-#### [@stdlib/lapack/base/claset](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/claset)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`c1fef06`](https://github.com/stdlib-js/stdlib/commit/c1fef0653287db93debf75a4475ef93b62c16b8c) - add `lapack/base/claset`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="lapack-base-crot-unreleased">
-
-#### [@stdlib/lapack/base/crot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/crot)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`19972bb`](https://github.com/stdlib-js/stdlib/commit/19972bbd6ddf6bf8b7fbc8f61c9da84e73483da6) - add `lapack/base/crot`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="lapack-base-dge-trans-unreleased">
-
-#### [@stdlib/lapack/base/dge-trans](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/dge-trans)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`6515b3b`](https://github.com/stdlib-js/stdlib/commit/6515b3b3faa2faafefa945c04e5c6edb6596d5d7) - add `lapack/base/sge-trans` [(#2786)](https://github.com/stdlib-js/stdlib/pull/2786)
--   [`cd5ad1c`](https://github.com/stdlib-js/stdlib/commit/cd5ad1cf89fe37a15b6192b6b2961aeb0470803f) - add `lapack/base/dge-trans` [(#2734)](https://github.com/stdlib-js/stdlib/pull/2734)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="lapack-base-dlamch-unreleased">
-
-#### [@stdlib/lapack/base/dlamch](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/dlamch)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`536f5db`](https://github.com/stdlib-js/stdlib/commit/536f5dbb8b2170a59f8a0c0181d85889181d8a99) - add `lapack/base/dlamch` [(#2568)](https://github.com/stdlib-js/stdlib/pull/2568)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="lapack-base-dlaswp-unreleased">
-
-#### [@stdlib/lapack/base/dlaswp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/dlaswp)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3646d49`](https://github.com/stdlib-js/stdlib/commit/3646d490449e83e4db4130b6a16544674550f5c7) - add `lapack/base/slaswp` [(#2757)](https://github.com/stdlib-js/stdlib/pull/2757)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="lapack-base-sge-trans-unreleased">
-
-#### [@stdlib/lapack/base/sge-trans](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/sge-trans)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`6515b3b`](https://github.com/stdlib-js/stdlib/commit/6515b3b3faa2faafefa945c04e5c6edb6596d5d7) - add `lapack/base/sge-trans` [(#2786)](https://github.com/stdlib-js/stdlib/pull/2786)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="lapack-base-slacpy-unreleased">
-
-#### [@stdlib/lapack/base/slacpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/slacpy)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ba0f3a0`](https://github.com/stdlib-js/stdlib/commit/ba0f3a07b022febd62d4f5f9616dff0c1648bf5a) - add `lapack/base/slacpy` [(#2716)](https://github.com/stdlib-js/stdlib/pull/2716)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="lapack-base-slaswp-unreleased">
-
-#### [@stdlib/lapack/base/slaswp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/slaswp)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3646d49`](https://github.com/stdlib-js/stdlib/commit/3646d490449e83e4db4130b6a16544674550f5c7) - add `lapack/base/slaswp` [(#2757)](https://github.com/stdlib-js/stdlib/pull/2757)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="lapack-base-spttrf-unreleased">
-
-#### [@stdlib/lapack/base/spttrf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/spttrf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`5e01b28`](https://github.com/stdlib-js/stdlib/commit/5e01b28c0cb96ba9d76ded9757788973a46d19c5) - add `lapack/base/spttrf` [(#2724)](https://github.com/stdlib-js/stdlib/pull/2724)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="lapack-base-zlacgv-unreleased">
-
-#### [@stdlib/lapack/base/zlacgv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/zlacgv)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`4e3292d`](https://github.com/stdlib-js/stdlib/commit/4e3292d5f4d82776caafbe046d8ee4a423faee4f) - add `lapack/base/zlacgv` [(#4725)](https://github.com/stdlib-js/stdlib/pull/4725)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="lapack-base-zlacpy-unreleased">
-
-#### [@stdlib/lapack/base/zlacpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/zlacpy)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`5e9a3e9`](https://github.com/stdlib-js/stdlib/commit/5e9a3e996d3494379ad6396856ee3a1fd0c06a61) - add `lapack/base/zlacpy` [(#4703)](https://github.com/stdlib-js/stdlib/pull/4703)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="lapack-base-zlaset-unreleased">
-
-#### [@stdlib/lapack/base/zlaset](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/zlaset)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`8995729`](https://github.com/stdlib-js/stdlib/commit/8995729d86baba1711ca5c1305ebca1bb990f3ff) - add `lapack/base/zlaset` [(#4789)](https://github.com/stdlib-js/stdlib/pull/4789)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="lapack-base-zrot-unreleased">
-
-#### [@stdlib/lapack/base/zrot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/zrot)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`86163ea`](https://github.com/stdlib-js/stdlib/commit/86163ea9143a5f40e58f1d5c7307eaa07a64a39c) - add `lapack/base/zrot` [(#4772)](https://github.com/stdlib-js/stdlib/pull/4772)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
+<!-- /.bug-fixes -->
 
 <section class="breaking-changes">
 
@@ -414,20 +85,17 @@
 
 <!-- /.breaking-changes -->
 
-<section class="contributors">
+<section class="issues">
 
-### Contributors
+### Closed Issues
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 3 issues were closed in this release:
 
--   Athan Reines
--   Philipp Burckhardt
--   Pranav Goswami
--   Ricky Reusser
+[#5052](https://github.com/stdlib-js/stdlib/issues/5052), [#6270](https://github.com/stdlib-js/stdlib/issues/6270), [#7335](https://github.com/stdlib-js/stdlib/issues/7335)
 
 </section>
 
-<!-- /.contributors -->
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -435,6 +103,52 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`933ae5e`](https://github.com/stdlib-js/stdlib/commit/933ae5eaa70b01019a3b8880d2666dddbd129298) - **fix:** remove xerbla from namespaces _(by Philipp Burckhardt)_
+-   [`5a704e5`](https://github.com/stdlib-js/stdlib/commit/5a704e58579ef5c9ac7599e77c48d8ee07a2fdb5) - **docs:** fix requires in example code _(by Philipp Burckhardt)_
+-   [`cedc9bb`](https://github.com/stdlib-js/stdlib/commit/cedc9bb0f92c950200128079cac8ab1da99ec7ed) - **docs:** fix example code _(by Philipp Burckhardt)_
+-   [`fb9d401`](https://github.com/stdlib-js/stdlib/commit/fb9d4016b7ae28a2f2a68188eace05bbb9be44ff) - **feat:** add missing functions to namespace _(by Philipp Burckhardt)_
+-   [`f344466`](https://github.com/stdlib-js/stdlib/commit/f344466c6dcfb8f52d7f3148acaadd52772938da) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`ce87025`](https://github.com/stdlib-js/stdlib/commit/ce870250efa946b8b1aa693853d6ea6b21c7ff0f) - **docs:** fix package name _(by Athan Reines)_
+-   [`59f3ca9`](https://github.com/stdlib-js/stdlib/commit/59f3ca930abd58ce6d8ce9d74f0389b7d7f0e847) - **feat:** add C implementation _(by Athan Reines)_
+-   [`c18ed00`](https://github.com/stdlib-js/stdlib/commit/c18ed008ac70f2ad1522ce5ddfd11620ca872995) - **build:** fix configurations _(by Athan Reines)_
+-   [`26dc3a2`](https://github.com/stdlib-js/stdlib/commit/26dc3a22951b5f9206b7bcebc35229732f5f0b2b) - **docs:** update docs and fix signature _(by Athan Reines)_
+-   [`b798293`](https://github.com/stdlib-js/stdlib/commit/b798293de89c22ced40a44a8bd751736ab2035c5) - **feat:** add initial `lapack/base/xerbla` _(by Athan Reines)_
+-   [`9f5cf9c`](https://github.com/stdlib-js/stdlib/commit/9f5cf9c9fa0c7f9d9c967d510d89c15781c66b34) - **feat:** add error codes _(by Athan Reines)_
+-   [`f51b061`](https://github.com/stdlib-js/stdlib/commit/f51b061fd0ed716d4c7ea79a49b838234dc55bef) - **fix:** rename symbol to avoid conflict _(by Athan Reines)_
+-   [`25ef497`](https://github.com/stdlib-js/stdlib/commit/25ef49759c944e033f329795fe9ada2a5e296e5b) - **feat:** add `lapack/base/shared` _(by Athan Reines)_
+-   [`defed16`](https://github.com/stdlib-js/stdlib/commit/defed163077b2e81d04aecb77ad15d14f71b2207) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`c8bf1de`](https://github.com/stdlib-js/stdlib/commit/c8bf1de9e8487400542c53b1f435b607976043b8) - **docs:** fix parameter description _(by Philipp Burckhardt)_
+-   [`01d9619`](https://github.com/stdlib-js/stdlib/commit/01d9619612325b9d7a3429a4aa714929762e7beb) - **feat:** add `lapack/base/dlaset` [(#7467)](https://github.com/stdlib-js/stdlib/pull/7467) _(by Aayush Khanna, Athan Reines)_
+-   [`e81850c`](https://github.com/stdlib-js/stdlib/commit/e81850c22c77fcaf13fba4e78f93f14088232ae7) - **chore:** minor cleanup in `lapack/base/dgttrf` [(#7383)](https://github.com/stdlib-js/stdlib/pull/7383) _(by Aayush Khanna)_
+-   [`58679fa`](https://github.com/stdlib-js/stdlib/commit/58679fa33df1b41d2e4f043a2dce327233c59efa) - **chore:** fix editorconfig lint errors [(#7348)](https://github.com/stdlib-js/stdlib/pull/7348) _(by Deepak Singh, Athan Reines)_
+-   [`86ac66b`](https://github.com/stdlib-js/stdlib/commit/86ac66b74c8df1c04407cb4160051621e8ce3da8) - **feat:** add `lapack/base/iladlc` [(#7083)](https://github.com/stdlib-js/stdlib/pull/7083) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
+-   [`f3c3d72`](https://github.com/stdlib-js/stdlib/commit/f3c3d72625ae483437a06f9e5f2da38354aa7ef1) - **feat:** add `lapack/base/iladlr` [(#7076)](https://github.com/stdlib-js/stdlib/pull/7076) _(by Aayush Khanna, Athan Reines)_
+-   [`fa8250e`](https://github.com/stdlib-js/stdlib/commit/fa8250e71f95a3a9c5be81affa3d7bd634370cd5) - **feat:** add `lapack/base/dlapy3` [(#7144)](https://github.com/stdlib-js/stdlib/pull/7144) _(by Aayush Khanna, Athan Reines)_
+-   [`962d072`](https://github.com/stdlib-js/stdlib/commit/962d0727294945bd6570dbe2d7e39625f9469d3a) - **feat:** add `lapack/base/dlapy2` [(#7120)](https://github.com/stdlib-js/stdlib/pull/7120) _(by Aayush Khanna, Athan Reines)_
+-   [`54b8104`](https://github.com/stdlib-js/stdlib/commit/54b810456e845ffc01712d66cc773a1613884767) - **feat:** add `lapack/base/dgttrf` [(#5754)](https://github.com/stdlib-js/stdlib/pull/5754) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
+-   [`0ab37c0`](https://github.com/stdlib-js/stdlib/commit/0ab37c04acddba037684976cebbfc1b8cb3236cf) - **docs:** update Markdown stdlib package URLs [(#7005)](https://github.com/stdlib-js/stdlib/pull/7005) _(by stdlib-bot)_
+-   [`41f4b7a`](https://github.com/stdlib-js/stdlib/commit/41f4b7adff17197d04cc261c774bfb6601cc6e2c) - **feat:** add `lapack/base/claswp` [(#5525)](https://github.com/stdlib-js/stdlib/pull/5525) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
+-   [`9ab33f7`](https://github.com/stdlib-js/stdlib/commit/9ab33f74cb00123d6b48bc8b2a9f88ec559b82aa) - **docs:** update copy _(by Athan Reines)_
+-   [`12615c0`](https://github.com/stdlib-js/stdlib/commit/12615c0be9064895e7a5838faba15cc871880094) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`26695c2`](https://github.com/stdlib-js/stdlib/commit/26695c2f08c0c9c6ddd1328c59cb114a046d9adf) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`d4d6c43`](https://github.com/stdlib-js/stdlib/commit/d4d6c43c17c7f6f732970e77af84a7c15458d3ea) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`6ee5d86`](https://github.com/stdlib-js/stdlib/commit/6ee5d86e28d4bb75b512759bbbfef694fbbf43f5) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`f924a93`](https://github.com/stdlib-js/stdlib/commit/f924a93e442b00ae98f7aa3748ff3542a19f6e25) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`9a5137a`](https://github.com/stdlib-js/stdlib/commit/9a5137ae37881804a20e1d0151022f56294bf466) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`41a3836`](https://github.com/stdlib-js/stdlib/commit/41a383613580ba43656bad45f30e1b06aa0d14b9) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`5fa268b`](https://github.com/stdlib-js/stdlib/commit/5fa268b45966db0bf625010a1e5cbda152fbf648) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`9b301e1`](https://github.com/stdlib-js/stdlib/commit/9b301e1bac9da9445ca8be7a0c56f2af860441eb) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`41a5543`](https://github.com/stdlib-js/stdlib/commit/41a5543536123a35ef319fcba4abd41fe988b366) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`969a0c6`](https://github.com/stdlib-js/stdlib/commit/969a0c6cc04e7c76078978c6cccf4353cc22565b) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`4b5f02d`](https://github.com/stdlib-js/stdlib/commit/4b5f02ddb3812966ea80d980d109c0c1057dea8a) - **docs:** update Markdown stdlib package URLs [(#6874)](https://github.com/stdlib-js/stdlib/pull/6874) _(by stdlib-bot)_
+-   [`e7f973d`](https://github.com/stdlib-js/stdlib/commit/e7f973d92279cc05d82c9d330fc2398a80971253) - **feat:** add `lapack/base/zlaswp` [(#5496)](https://github.com/stdlib-js/stdlib/pull/5496) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
+-   [`b1e106f`](https://github.com/stdlib-js/stdlib/commit/b1e106f1aff2467f9664914b994c6729c5ac60e7) - **chore:** fix EditorConfig lint errors [(#6278)](https://github.com/stdlib-js/stdlib/pull/6278) _(by Aarya Balwadkar, Athan Reines)_
+-   [`126b65d`](https://github.com/stdlib-js/stdlib/commit/126b65dcb129e68acc343fc1d8a2e994334e10c9) - **bench:** fix assertions _(by Athan Reines)_
+-   [`5bd0a2b`](https://github.com/stdlib-js/stdlib/commit/5bd0a2b8164e428ec69067e749e061b7e2fd1ecc) - **bench:** fix assertions _(by Athan Reines)_
+-   [`a62261a`](https://github.com/stdlib-js/stdlib/commit/a62261a346f429f3cf49a0a295cfaaea5a4912ee) - **docs:** fix variable name in example [(#5524)](https://github.com/stdlib-js/stdlib/pull/5524) _(by Aayush Khanna)_
+-   [`28597c6`](https://github.com/stdlib-js/stdlib/commit/28597c67e5bf9e6646b608edd04fd808c567d652) - **docs:** fix require paths and add missing semicolon [(#5055)](https://github.com/stdlib-js/stdlib/pull/5055) _(by Mohammad Bin Aftab)_
+-   [`e5782a6`](https://github.com/stdlib-js/stdlib/commit/e5782a67226e46dbef397279304e4a579c681f3f) - **docs:** fix missing semicolon _(by Athan Reines)_
+-   [`6520c92`](https://github.com/stdlib-js/stdlib/commit/6520c92cd3c0204571844bd070a5236aaafad822) - **docs:** fix require paths _(by Athan Reines)_
 -   [`8e8437c`](https://github.com/stdlib-js/stdlib/commit/8e8437c92781ac1873dc5df96daae1ef17a2ce1f) - **feat:** update namespace TypeScript declarations [(#4843)](https://github.com/stdlib-js/stdlib/pull/4843) _(by stdlib-bot)_
 -   [`063163f`](https://github.com/stdlib-js/stdlib/commit/063163f04276c85b781b5e58e0e8853ac3b36f0c) - **docs:** update namespace table of contents [(#4845)](https://github.com/stdlib-js/stdlib/pull/4845) _(by stdlib-bot)_
 -   [`9267e0f`](https://github.com/stdlib-js/stdlib/commit/9267e0f2c35f15ccb49402d319c33c2166f96a03) - **docs:** fix examples _(by Athan Reines)_
@@ -505,6 +219,25 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 8 people contributed to this release. Thank you to the following contributors:
+
+-   Aarya Balwadkar
+-   Aayush Khanna
+-   Athan Reines
+-   Deepak Singh
+-   Mohammad Bin Aftab
+-   Philipp Burckhardt
+-   Pranav Goswami
+-   Ricky Reusser
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -513,144 +246,27 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 ## 0.1.0 (2024-07-29)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="lapack-base-v0.1.0">
-
-#### [@stdlib/lapack/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`82d3d97`](https://github.com/stdlib-js/stdlib/commit/82d3d97793a601775bf76dfcac3a5e1c0748af44) - update namespace TypeScript declarations [(#2697)](https://github.com/stdlib-js/stdlib/pull/2697)
 -   [`fbfb30f`](https://github.com/stdlib-js/stdlib/commit/fbfb30f07c232a40946da12ba5d461b713d096f3) - add `dlassq` to namespace
+-   [`8c74427`](https://github.com/stdlib-js/stdlib/commit/8c744275aab38f442c551777ce376b2a89a4be6c) - add `lapack/base/dlassq` [(#2668)](https://github.com/stdlib-js/stdlib/pull/2668)
 -   [`5f94431`](https://github.com/stdlib-js/stdlib/commit/5f94431c127c93408f96c48a992085738c3b780f) - update namespace TypeScript declarations [(#2690)](https://github.com/stdlib-js/stdlib/pull/2690)
 -   [`7d399c6`](https://github.com/stdlib-js/stdlib/commit/7d399c672b81b82818a91f4f4bb2ca505481cf5a) - add `dpttrf` to namespace
+-   [`0630400`](https://github.com/stdlib-js/stdlib/commit/0630400bbf2b87197035c768e37a9ec6430db6b8) - add `lapack/base/dpttrf` [(#2578)](https://github.com/stdlib-js/stdlib/pull/2578)
 -   [`c325e6a`](https://github.com/stdlib-js/stdlib/commit/c325e6ae798f7f103a3c375b045b39edde818958) - add `dlacpy` to namespace
+-   [`6953aae`](https://github.com/stdlib-js/stdlib/commit/6953aae41e500330c26a43137b417d523ffdaaeb) - add `lapack/base/dlacpy` [(#2548)](https://github.com/stdlib-js/stdlib/pull/2548)
 -   [`6e4b9eb`](https://github.com/stdlib-js/stdlib/commit/6e4b9ebc31d9629446019e37e31bfe9b180b675c) - update namespace TypeScript declarations [(#2681)](https://github.com/stdlib-js/stdlib/pull/2681)
+-   [`812e033`](https://github.com/stdlib-js/stdlib/commit/812e0334a74ea13f3e0bf0e3ed3453c1933f8d43) - remove `order` argument from `ndarray` method
 -   [`86ce889`](https://github.com/stdlib-js/stdlib/commit/86ce8890194313ebee3f047d19ea4d0f24d87c3d) - update namespace TypeScript declarations [(#2591)](https://github.com/stdlib-js/stdlib/pull/2591)
 -   [`429f55b`](https://github.com/stdlib-js/stdlib/commit/429f55b9db74ca8b92c02636c360819a93c0189f) - add `lapack/base` namespace
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="lapack-base-dlacpy-v0.1.0">
-
-#### [@stdlib/lapack/base/dlacpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/dlacpy)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`6953aae`](https://github.com/stdlib-js/stdlib/commit/6953aae41e500330c26a43137b417d523ffdaaeb) - add `lapack/base/dlacpy` [(#2548)](https://github.com/stdlib-js/stdlib/pull/2548)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="lapack-base-dlassq-v0.1.0">
-
-#### [@stdlib/lapack/base/dlassq](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/dlassq)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`8c74427`](https://github.com/stdlib-js/stdlib/commit/8c744275aab38f442c551777ce376b2a89a4be6c) - add `lapack/base/dlassq` [(#2668)](https://github.com/stdlib-js/stdlib/pull/2668)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="lapack-base-dlaswp-v0.1.0">
-
-#### [@stdlib/lapack/base/dlaswp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/dlaswp)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`812e033`](https://github.com/stdlib-js/stdlib/commit/812e0334a74ea13f3e0bf0e3ed3453c1933f8d43) - remove `order` argument from `ndarray` method
 -   [`f2dfdb3`](https://github.com/stdlib-js/stdlib/commit/f2dfdb389aadc142ce36367e92e5492b082eef0a) - add `lapack/base/dlaswp` [(#2483)](https://github.com/stdlib-js/stdlib/pull/2483)
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`812e033`](https://github.com/stdlib-js/stdlib/commit/812e0334a74ea13f3e0bf0e3ed3453c1933f8d43): remove `order` argument from `ndarray` method
-
-    -   To migrate, users should drop the `order` argument when invoking
-        the `ndarray` method.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="lapack-base-dpttrf-v0.1.0">
-
-#### [@stdlib/lapack/base/dpttrf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base/dpttrf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0630400`](https://github.com/stdlib-js/stdlib/commit/0630400bbf2b87197035c768e37a9ec6430db6b8) - add `lapack/base/dpttrf` [(#2578)](https://github.com/stdlib-js/stdlib/pull/2578)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -664,20 +280,6 @@ A total of 4 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 3 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
--   Pranav Goswami
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -709,6 +311,20 @@ A total of 3 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 3 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+-   Pranav Goswami
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
