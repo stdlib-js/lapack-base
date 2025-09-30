@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-03)
+## Unreleased (2025-09-30)
 
 <section class="features">
 
 ### Features
 
+-   [`59f6e29`](https://github.com/stdlib-js/stdlib/commit/59f6e29cdc1cbde16ae592fa5c168992d08edbcc) - update `lapack/base` TypeScript declarations
 -   [`18b2372`](https://github.com/stdlib-js/stdlib/commit/18b2372476178bcaa6bd7ddc69396f0e87dc93f2) - add missing exports to namespaces
 -   [`126ff36`](https://github.com/stdlib-js/stdlib/commit/126ff36b5fd11cbf87771a6a82cd942412cec0cb) - add `lapack/base/dlarf1f` [(#7540)](https://github.com/stdlib-js/stdlib/pull/7540)
 -   [`adef3c5`](https://github.com/stdlib-js/stdlib/commit/adef3c5d87679c2b0b50fb8bee3bb91abc1be64a) - add `lapack/base/dladiv` [(#7916)](https://github.com/stdlib-js/stdlib/pull/7916)
@@ -106,6 +107,19 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`4655ded`](https://github.com/stdlib-js/stdlib/commit/4655ded021387edd1e516c2d838e49642245bed5) - **docs:** fix import statements [(#8163)](https://github.com/stdlib-js/stdlib/pull/8163) _(by stdlib-bot)_
+-   [`b7c2031`](https://github.com/stdlib-js/stdlib/commit/b7c20312491bdcf54ffc681e5fe489b9ba3d059c) - **docs:** clean-up TSDoc declaration comments _(by Philipp Burckhardt)_
+-   [`3dc5f1e`](https://github.com/stdlib-js/stdlib/commit/3dc5f1ef335565c05ee4be5878de5b587c7f28d6) - **docs:** fix require paths for complex arrays _(by Philipp Burckhardt)_
+-   [`59f6e29`](https://github.com/stdlib-js/stdlib/commit/59f6e29cdc1cbde16ae592fa5c168992d08edbcc) - **feat:** update `lapack/base` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`905019c`](https://github.com/stdlib-js/stdlib/commit/905019c024611308865950e3d1dd51c642176e82) - **docs:** fix grammar in function descriptions _(by Philipp Burckhardt)_
+-   [`160d653`](https://github.com/stdlib-js/stdlib/commit/160d653473e812a90e424db13db12ef32371c7b1) - **test:** use `strictEqual` assertions _(by Athan Reines)_
+-   [`be60b0a`](https://github.com/stdlib-js/stdlib/commit/be60b0a48997f93597eefcfea28c3a722a259035) - **test:** use `strictEqual` assertions _(by Athan Reines)_
+-   [`2fc9c1d`](https://github.com/stdlib-js/stdlib/commit/2fc9c1d68b420f4141189fe86685f47b93abeab8) - **docs:** fix copy _(by Athan Reines)_
+-   [`15eb448`](https://github.com/stdlib-js/stdlib/commit/15eb448967586685512d4624d5833d39101ad39c) - **docs:** fix copy _(by Athan Reines)_
+-   [`d844f8b`](https://github.com/stdlib-js/stdlib/commit/d844f8bdf3d6d6afd15768ba01f7c314203071ce) - **docs:** fix missing parameter _(by Athan Reines)_
+-   [`3c008bb`](https://github.com/stdlib-js/stdlib/commit/3c008bbe939586f9738164ce4321d18b92bc9291) - **docs:** fix missing parameter _(by Athan Reines)_
+-   [`e93b8b9`](https://github.com/stdlib-js/stdlib/commit/e93b8b9f50227aa7b0d836bf1bb107b8efa82340) - **bench:** fix description _(by Athan Reines)_
+-   [`536964f`](https://github.com/stdlib-js/stdlib/commit/536964fb31bba209cb6c1dd6dc113eae08e22252) - **bench:** fix description _(by Athan Reines)_
 -   [`18b2372`](https://github.com/stdlib-js/stdlib/commit/18b2372476178bcaa6bd7ddc69396f0e87dc93f2) - **feat:** add missing exports to namespaces _(by Philipp Burckhardt)_
 -   [`126ff36`](https://github.com/stdlib-js/stdlib/commit/126ff36b5fd11cbf87771a6a82cd942412cec0cb) - **feat:** add `lapack/base/dlarf1f` [(#7540)](https://github.com/stdlib-js/stdlib/pull/7540) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
 -   [`adef3c5`](https://github.com/stdlib-js/stdlib/commit/adef3c5d87679c2b0b50fb8bee3bb91abc1be64a) - **feat:** add `lapack/base/dladiv` [(#7916)](https://github.com/stdlib-js/stdlib/pull/7916) _(by Aayush Khanna, Athan Reines)_
