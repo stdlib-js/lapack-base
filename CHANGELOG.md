@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-07)
+## Unreleased (2025-12-02)
 
 <section class="features">
 
@@ -107,6 +107,12 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`01e7bd4`](https://github.com/stdlib-js/stdlib/commit/01e7bd455c657f195c00412a97f3ea6bbef99af9) - **docs:** add missing requires and update example code in TSDoc declarations _(by Philipp Burckhardt)_
+-   [`8f8680e`](https://github.com/stdlib-js/stdlib/commit/8f8680e6fa93ee957b3e01bf0efa53c2e8296774) - **docs:** improve doctests for complex number instances in `lapack/base/zrot` [(#8697)](https://github.com/stdlib-js/stdlib/pull/8697) _(by Divyanshu)_
+-   [`7267554`](https://github.com/stdlib-js/stdlib/commit/726755434945e98ffc397428019375371e701405) - **docs:** improve doctests for complex number instances in `lapack/base/zlacgv` [(#8696)](https://github.com/stdlib-js/stdlib/pull/8696) _(by Divyanshu)_
+-   [`5cf2090`](https://github.com/stdlib-js/stdlib/commit/5cf2090fdc19c61d9de8fe9695ca02c6a9cbb716) - **docs:** improve doctests for complex number instances in `lapack/base/clacgv` [(#8655)](https://github.com/stdlib-js/stdlib/pull/8655) _(by Divyanshu)_
+-   [`ac023f1`](https://github.com/stdlib-js/stdlib/commit/ac023f15a988ba37aef2e2aad704ff2aafc94a6e) - **docs:** improve doctests for complex number instances in `lapack/base/clacpy` [(#8657)](https://github.com/stdlib-js/stdlib/pull/8657) _(by Divyanshu)_
+-   [`4ebbd97`](https://github.com/stdlib-js/stdlib/commit/4ebbd97f55188dd986e9b98b26972c3729b1f6e4) - **docs:** fix TypeScript declarations doctest lint errors _(by Philipp Burckhardt)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`4655ded`](https://github.com/stdlib-js/stdlib/commit/4655ded021387edd1e516c2d838e49642245bed5) - **docs:** fix import statements [(#8163)](https://github.com/stdlib-js/stdlib/pull/8163) _(by stdlib-bot)_
 -   [`b7c2031`](https://github.com/stdlib-js/stdlib/commit/b7c20312491bdcf54ffc681e5fe489b9ba3d059c) - **docs:** clean-up TSDoc declaration comments _(by Philipp Burckhardt)_
@@ -244,12 +250,13 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 8 people contributed to this release. Thank you to the following contributors:
+A total of 9 people contributed to this release. Thank you to the following contributors:
 
 -   Aarya Balwadkar
 -   Aayush Khanna
 -   Athan Reines
 -   Deepak Singh
+-   Divyanshu
 -   Mohammad Bin Aftab
 -   Philipp Burckhardt
 -   Pranav Goswami
