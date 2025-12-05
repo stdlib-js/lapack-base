@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-02)
+## Unreleased (2025-12-05)
 
 <section class="features">
 
@@ -107,6 +107,9 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`1dcf101`](https://github.com/stdlib-js/stdlib/commit/1dcf1013f5f6b583f11aa4f33750a549114de858) - **docs:** update example code in namespace TSDoc declarations _(by Philipp Burckhardt)_
+-   [`ba34b1b`](https://github.com/stdlib-js/stdlib/commit/ba34b1bfec58f8f265747b73d05a319cde3405e4) - **docs:** improve doctests for complex number instances in `lapack/base/zlacpy` [(#8776)](https://github.com/stdlib-js/stdlib/pull/8776) _(by Sagar Ratna Chaudhary)_
+-   [`1491c49`](https://github.com/stdlib-js/stdlib/commit/1491c49bbcf459dbcb011bdd5945b31a27e63510) - **docs:** improve doctests for complex number instances in `lapack/base/zlaset` [(#8753)](https://github.com/stdlib-js/stdlib/pull/8753) _(by Sagar Ratna Chaudhary)_
 -   [`01e7bd4`](https://github.com/stdlib-js/stdlib/commit/01e7bd455c657f195c00412a97f3ea6bbef99af9) - **docs:** add missing requires and update example code in TSDoc declarations _(by Philipp Burckhardt)_
 -   [`8f8680e`](https://github.com/stdlib-js/stdlib/commit/8f8680e6fa93ee957b3e01bf0efa53c2e8296774) - **docs:** improve doctests for complex number instances in `lapack/base/zrot` [(#8697)](https://github.com/stdlib-js/stdlib/pull/8697) _(by Divyanshu)_
 -   [`7267554`](https://github.com/stdlib-js/stdlib/commit/726755434945e98ffc397428019375371e701405) - **docs:** improve doctests for complex number instances in `lapack/base/zlacgv` [(#8696)](https://github.com/stdlib-js/stdlib/pull/8696) _(by Divyanshu)_
@@ -250,7 +253,7 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 9 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Aarya Balwadkar
 -   Aayush Khanna
@@ -261,6 +264,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 -   Philipp Burckhardt
 -   Pranav Goswami
 -   Ricky Reusser
+-   Sagar Ratna Chaudhary
 
 </section>
 
