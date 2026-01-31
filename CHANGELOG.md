@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.2.0">
 
-## Unreleased (2025-12-17)
+## 0.2.0 (2026-01-31)
 
 <section class="features">
 
@@ -66,6 +66,7 @@
 
 ### Bug Fixes
 
+-   [`5b1c0fd`](https://github.com/stdlib-js/stdlib/commit/5b1c0fd3f21b52b9cf1a791ab74367a08e79b2c8) - add missing exports comments
 -   [`933ae5e`](https://github.com/stdlib-js/stdlib/commit/933ae5eaa70b01019a3b8880d2666dddbd129298) - remove xerbla from namespaces
 -   [`f51b061`](https://github.com/stdlib-js/stdlib/commit/f51b061fd0ed716d4c7ea79a49b838234dc55bef) - rename symbol to avoid conflict
 
@@ -93,9 +94,9 @@
 
 ### Closed Issues
 
-A total of 3 issues were closed in this release:
+A total of 8 issues were closed in this release:
 
-[#5052](https://github.com/stdlib-js/stdlib/issues/5052), [#6270](https://github.com/stdlib-js/stdlib/issues/6270), [#7335](https://github.com/stdlib-js/stdlib/issues/7335)
+[#5052](https://github.com/stdlib-js/stdlib/issues/5052), [#6270](https://github.com/stdlib-js/stdlib/issues/6270), [#7335](https://github.com/stdlib-js/stdlib/issues/7335), [#9128](https://github.com/stdlib-js/stdlib/issues/9128), [#9149](https://github.com/stdlib-js/stdlib/issues/9149), [#9150](https://github.com/stdlib-js/stdlib/issues/9150), [#9527](https://github.com/stdlib-js/stdlib/issues/9527), [#9687](https://github.com/stdlib-js/stdlib/issues/9687)
 
 </section>
 
@@ -107,6 +108,16 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`5b1c0fd`](https://github.com/stdlib-js/stdlib/commit/5b1c0fd3f21b52b9cf1a791ab74367a08e79b2c8) - **fix:** add missing exports comments _(by Philipp Burckhardt)_
+-   [`4026f6b`](https://github.com/stdlib-js/stdlib/commit/4026f6b885a77192ae147c6314c691db8d375f26) - **docs:** add references _(by Athan Reines)_
+-   [`1216f34`](https://github.com/stdlib-js/stdlib/commit/1216f342bddf49075c7b29c30bf145f413171344) - **test:** visually group require statements _(by Athan Reines)_
+-   [`7d17660`](https://github.com/stdlib-js/stdlib/commit/7d17660137c611ad174f81df229a31f4d3080cbc) - **chore:** fix JavaScript lint errors [(#9690)](https://github.com/stdlib-js/stdlib/pull/9690) _(by Divyanshu)_
+-   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
+-   [`bfc8c3a`](https://github.com/stdlib-js/stdlib/commit/bfc8c3a7bcebf1a049c9e457ab440f540fd5c7a9) - **chore:** use one asterisk for license comment in TS files _(by Philipp Burckhardt)_
+-   [`4bb46e9`](https://github.com/stdlib-js/stdlib/commit/4bb46e9a4f4421fd250ac065aba2fd7ca8dfa5da) - **chore:** fix JavaScript lint errors [(#9530)](https://github.com/stdlib-js/stdlib/pull/9530) _(by kaushal-kumar-it, Athan Reines)_
+-   [`b0962b9`](https://github.com/stdlib-js/stdlib/commit/b0962b916b498ef0d0d510c41857e5169176997c) - **docs:** fix broken Markdown link [(#9249)](https://github.com/stdlib-js/stdlib/pull/9249) _(by Ketan-Ag, Philipp Burckhardt)_
+-   [`e5d1aaf`](https://github.com/stdlib-js/stdlib/commit/e5d1aaf69f0990a223bdc568ce6894185587b601) - **docs:** fix broken Markdown link [(#9159)](https://github.com/stdlib-js/stdlib/pull/9159) _(by Manit Roy)_
+-   [`fd894a1`](https://github.com/stdlib-js/stdlib/commit/fd894a1a42d580d0ad12ae53ab9596cc44ee1870) - **docs:** fix broken Markdown link [(#9163)](https://github.com/stdlib-js/stdlib/pull/9163) _(by Sujal charati)_
 -   [`c569e53`](https://github.com/stdlib-js/stdlib/commit/c569e53a4938ceb02996bc94b8613b42f820df58) - **docs:** update `lapack/base` TypeScript declarations [(#9116)](https://github.com/stdlib-js/stdlib/pull/9116) _(by stdlib-bot)_
 -   [`ef3e8f4`](https://github.com/stdlib-js/stdlib/commit/ef3e8f448774d1ad3c657c2b506d0736adf01cee) - **docs:** improve doctests for complex number instances in `lapack/base/crot` [(#8953)](https://github.com/stdlib-js/stdlib/pull/8953) _(by Prajjwal Bajpai, Athan Reines)_
 -   [`4d295c9`](https://github.com/stdlib-js/stdlib/commit/4d295c9c9c7d47ed6b9ba728a5f0f70da2338905) - **docs:** improve doctests for complex number instances in `lapack/base/claset` [(#8976)](https://github.com/stdlib-js/stdlib/pull/8976) _(by Divyanshu, Athan Reines)_
@@ -257,19 +268,23 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 11 people contributed to this release. Thank you to the following contributors:
+A total of 15 people contributed to this release. Thank you to the following contributors:
 
 -   Aarya Balwadkar
 -   Aayush Khanna
 -   Athan Reines
 -   Deepak Singh
 -   Divyanshu
+-   Ketan-Ag
+-   Manit Roy
 -   Mohammad Bin Aftab
 -   Philipp Burckhardt
 -   Prajjwal Bajpai
 -   Pranav Goswami
 -   Ricky Reusser
 -   Sagar Ratna Chaudhary
+-   Sujal charati
+-   kaushal-kumar-it
 
 </section>
 
