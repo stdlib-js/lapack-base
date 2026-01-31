@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import lapack from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base@esm/index.mjs';
+import lapack from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { clacgv, clacpy, claset, claswp, crot, dgetrans, dgttrf, dlacpy, dladiv, dlamch, dlapy2, dlapy3, dlarf1f, dlaset, dlassq, dlaswp, dpttrf, iladlc, iladlr, sgetrans, slacpy, slaswp, spttrf, zlacgv, zlacpy, zlaset, zlaswp, zrot } from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base@esm/index.mjs';
+import { clacgv, clacpy, claset, claswp, crot, dgetrans, dgttrf, dlacpy, dladiv, dlamch, dlapy2, dlapy3, dlarf1f, dlaset, dlassq, dlaswp, dpttrf, iladlc, iladlr, sgetrans, slacpy, slaswp, spttrf, zlacgv, zlacpy, zlaset, zlaswp, zrot } from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base@v0.2.0-esm/index.mjs';
 ```
 
 #### lapack
@@ -118,7 +118,7 @@ The namespace contains the following:
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import lapack from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base@esm/index.mjs';
+import lapack from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base@v0.2.0-esm/index.mjs';
 
 console.log( objectKeys( lapack ) );
 
