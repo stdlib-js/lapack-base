@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import lapack from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base@deno/mod.js';
+import lapack from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { clacgv, clacpy, claset, claswp, crot, dgetrans, dgttrf, dlacpy, dladiv, dlamch, dlapy2, dlapy3, dlarf1f, dlaset, dlassq, dlaswp, dpttrf, iladlc, iladlr, sgetrans, slacpy, slaswp, spttrf, zlacgv, zlacpy, zlaset, zlaswp, zrot } from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base@deno/mod.js';
+import { clacgv, clacpy, claset, claswp, crot, dgetrans, dgttrf, dlacpy, dladiv, dlamch, dlapy2, dlapy3, dlarf1f, dlaset, dlassq, dlaswp, dpttrf, iladlc, iladlr, sgetrans, slacpy, slaswp, spttrf, zlacgv, zlacpy, zlaset, zlaswp, zrot } from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base@v0.2.1-deno/mod.js';
 ```
 
 #### lapack
@@ -113,7 +113,7 @@ The namespace contains the following:
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import lapack from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base@deno/mod.js';
+import lapack from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base@v0.2.1-deno/mod.js';
 
 console.log( objectKeys( lapack ) );
 ```
