@@ -2,6 +2,67 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-23)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`3172206`](https://github.com/stdlib-js/stdlib/commit/317220684f42b0b7c51373e65eb354e7d2be6fc7) - **bench:** fix description _(by Athan Reines)_
+-   [`33e892a`](https://github.com/stdlib-js/stdlib/commit/33e892a03f8c628919751d82db58de78f90aa663) - **bench:** refactor to use string interpolation in `lapack/base/claset` [(#10092)](https://github.com/stdlib-js/stdlib/pull/10092) _(by Prajjwal Bajpai, Athan Reines)_
+-   [`5064174`](https://github.com/stdlib-js/stdlib/commit/5064174c60795a3122eff919ecdb06e5cbeefbed) - **bench:** refactor to use string interpolation in `lapack/base/clacpy` [(#10091)](https://github.com/stdlib-js/stdlib/pull/10091) _(by Prajjwal Bajpai, Athan Reines)_
+-   [`a9a8876`](https://github.com/stdlib-js/stdlib/commit/a9a8876832e118b718fc4e7727774ab017a73ca2) - **bench:** refactor to use string interpolation in `lapack/base/dge-trans` [(#10095)](https://github.com/stdlib-js/stdlib/pull/10095) _(by Prajjwal Bajpai, Athan Reines)_
+-   [`9d39628`](https://github.com/stdlib-js/stdlib/commit/9d39628f9f41d0e8115684bc155aaba353ede02e) - **bench:** refactor to use string interpolation in `lapack/base/dlacpy` [(#10097)](https://github.com/stdlib-js/stdlib/pull/10097) _(by Prajjwal Bajpai, Athan Reines)_
+-   [`d5bc8be`](https://github.com/stdlib-js/stdlib/commit/d5bc8be211508459a7a6ac0c63a6f9fb3573b82e) - **bench:** refactor to use string interpolation in `lapack/base/claswp` [(#10093)](https://github.com/stdlib-js/stdlib/pull/10093) _(by Prajjwal Bajpai, Athan Reines)_
+-   [`8198d19`](https://github.com/stdlib-js/stdlib/commit/8198d196d6af765c7c9c39e4a71fe55713ad3748) - **bench:** refactor to use string interpolation in `lapack/base/dlaset` [(#10099)](https://github.com/stdlib-js/stdlib/pull/10099) _(by Prajjwal Bajpai, Athan Reines)_
+-   [`fc043ce`](https://github.com/stdlib-js/stdlib/commit/fc043ce359c6e100fe4d3b7747b2e37234e4bef7) - **bench:** refactor to use string interpolation in `lapack/base/iladlc` [(#10117)](https://github.com/stdlib-js/stdlib/pull/10117) _(by Prajjwal Bajpai, Athan Reines)_
+-   [`cc6f4ba`](https://github.com/stdlib-js/stdlib/commit/cc6f4bab257a418105ee8f914e94130c7a3608ea) - **bench:** refactor to use string interpolation in `lapack/base/iladlr` [(#10120)](https://github.com/stdlib-js/stdlib/pull/10120) _(by Prajjwal Bajpai, Athan Reines)_
+-   [`50d86a6`](https://github.com/stdlib-js/stdlib/commit/50d86a6882b7d6b0d8506de33c3467102e955e4a) - **bench:** refactor to use string interpolation in `lapack/base/sge-trans` [(#10123)](https://github.com/stdlib-js/stdlib/pull/10123) _(by Prajjwal Bajpai, Athan Reines)_
+-   [`401114d`](https://github.com/stdlib-js/stdlib/commit/401114d47c349c8e1e5dd329b747fc0ec2614529) - **bench:** refactor to use string interpolation in `lapack/base/dlaswp` [(#10102)](https://github.com/stdlib-js/stdlib/pull/10102) _(by Prajjwal Bajpai, Athan Reines)_
+-   [`f9491c3`](https://github.com/stdlib-js/stdlib/commit/f9491c3fa3b043ed4c0d9ea3141cedfdd4239ee6) - **bench:** refactor to use string interpolation in `lapack/base/dlarf1f` [(#10098)](https://github.com/stdlib-js/stdlib/pull/10098) _(by Prajjwal Bajpai, Athan Reines)_
+-   [`fbc802f`](https://github.com/stdlib-js/stdlib/commit/fbc802f7b268582103397618d302eb25afcb0c7f) - **bench:** refactor to use string interpolation in `lapack/base/slacpy` [(#10124)](https://github.com/stdlib-js/stdlib/pull/10124) _(by Prajjwal Bajpai, Athan Reines)_
+-   [`fb50958`](https://github.com/stdlib-js/stdlib/commit/fb50958365f133ae79a6caedaa2351be561cfd75) - **bench:** refactor to use string interpolation in `lapack/base/slaswp` [(#10125)](https://github.com/stdlib-js/stdlib/pull/10125) _(by Prajjwal Bajpai, Athan Reines)_
+-   [`b2ac230`](https://github.com/stdlib-js/stdlib/commit/b2ac2304fe21c8c482b272646776c591be9282e2) - **bench:** refactor to use string interpolation in `lapack/base/zlacpy` [(#10128)](https://github.com/stdlib-js/stdlib/pull/10128) _(by Prajjwal Bajpai, Athan Reines)_
+-   [`648fb21`](https://github.com/stdlib-js/stdlib/commit/648fb21364cce31bee7b94e6aaa2f136b7801f87) - **bench:** refactor to use string interpolation in `lapack/base/zlaset` [(#10129)](https://github.com/stdlib-js/stdlib/pull/10129) _(by Prajjwal Bajpai, Athan Reines)_
+-   [`87878e7`](https://github.com/stdlib-js/stdlib/commit/87878e70356befd4c09e8ae67b5b73026c5648b5) - **bench:** refactor to use string interpolation in `lapack/base/zlaswp` [(#10130)](https://github.com/stdlib-js/stdlib/pull/10130) _(by Prajjwal Bajpai, Athan Reines)_
+-   [`04ce2a4`](https://github.com/stdlib-js/stdlib/commit/04ce2a4f5679a2075bc2bd37e3c27b0f9cb422f7) - **bench:** refactor to use string interpolation in `lapack/base/dlassq` [(#10100)](https://github.com/stdlib-js/stdlib/pull/10100) _(by Prajjwal Bajpai)_
+-   [`208c5bf`](https://github.com/stdlib-js/stdlib/commit/208c5bf44bb87460a2a310e593193970c0366455) - **bench:** refactor to use string interpolation in `lapack/base/dpttrf` [(#10103)](https://github.com/stdlib-js/stdlib/pull/10103) _(by Prajjwal Bajpai)_
+-   [`cbd1066`](https://github.com/stdlib-js/stdlib/commit/cbd1066cbd4df6dcb9e699d2fdd94d3447db9e8a) - **bench:** refactor to use string interpolation in `lapack/base/spttrf` [(#10126)](https://github.com/stdlib-js/stdlib/pull/10126) _(by Prajjwal Bajpai)_
+-   [`db7bb4c`](https://github.com/stdlib-js/stdlib/commit/db7bb4c8b129e4d082aaa8531cca082603107fe3) - **bench:** refactor to use string interpolation in `lapack/base/zlacgv` [(#10127)](https://github.com/stdlib-js/stdlib/pull/10127) _(by Prajjwal Bajpai)_
+-   [`2ed3934`](https://github.com/stdlib-js/stdlib/commit/2ed3934650fc6e9dd7065f21c4de66e3457cc5cb) - **test:** fix argument order and regenerate fixtures _(by Philipp Burckhardt)_
+-   [`1c77c62`](https://github.com/stdlib-js/stdlib/commit/1c77c6221a42796e036a3f370732dfec9d579264) - **bench:** refactor to use string interpolation in `lapack/base/clacgv` [(#10088)](https://github.com/stdlib-js/stdlib/pull/10088) _(by Prajjwal Bajpai)_
+-   [`143c2b8`](https://github.com/stdlib-js/stdlib/commit/143c2b82010dee7aeff548e4cfdd946fe410b8ee) - **bench:** refactor to use string interpolation in `lapack/base/crot` [(#10094)](https://github.com/stdlib-js/stdlib/pull/10094) _(by Prajjwal Bajpai)_
+-   [`4a7457b`](https://github.com/stdlib-js/stdlib/commit/4a7457b1f6ab68883f0501b5c0186a3ddcdea707) - **bench:** refactor to use string interpolation in `lapack/base/dgttrf` [(#10096)](https://github.com/stdlib-js/stdlib/pull/10096) _(by Prajjwal Bajpai)_
+-   [`ace22bd`](https://github.com/stdlib-js/stdlib/commit/ace22bd1a1e27e34ee1436e7ed5a82be99584f34) - **bench:** refactor to use string interpolation in `lapack/base/zrot` [(#10131)](https://github.com/stdlib-js/stdlib/pull/10131) _(by Prajjwal Bajpai)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 3 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+-   Prajjwal Bajpai
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.1">
 
 ## 0.2.1 (2026-02-08)
