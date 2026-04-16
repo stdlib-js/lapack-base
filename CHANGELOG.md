@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-08)
+## Unreleased (2026-04-16)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`0b4edd7`](https://github.com/stdlib-js/stdlib/commit/0b4edd7b897b98d935ef9ece66115ea7f42aec52) - **style:** fix require statements [(#11478)](https://github.com/stdlib-js/stdlib/pull/11478) _(by stdlib-bot)_
+-   [`09675ac`](https://github.com/stdlib-js/stdlib/commit/09675ac400d407006844e7463fbdb4efad6ba227) - **docs:** update examples _(by Athan Reines)_
 -   [`3172206`](https://github.com/stdlib-js/stdlib/commit/317220684f42b0b7c51373e65eb354e7d2be6fc7) - **bench:** fix description _(by Athan Reines)_
 -   [`33e892a`](https://github.com/stdlib-js/stdlib/commit/33e892a03f8c628919751d82db58de78f90aa663) - **bench:** refactor to use string interpolation in `lapack/base/claset` [(#10092)](https://github.com/stdlib-js/stdlib/pull/10092) _(by Prajjwal Bajpai, Athan Reines)_
 -   [`5064174`](https://github.com/stdlib-js/stdlib/commit/5064174c60795a3122eff919ecdb06e5cbeefbed) - **bench:** refactor to use string interpolation in `lapack/base/clacpy` [(#10091)](https://github.com/stdlib-js/stdlib/pull/10091) _(by Prajjwal Bajpai, Athan Reines)_
