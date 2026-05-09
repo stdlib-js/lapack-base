@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-16)
+## Unreleased (2026-05-09)
 
 <section class="commits">
 
@@ -12,6 +12,9 @@
 
 <details>
 
+-   [`be81190`](https://github.com/stdlib-js/stdlib/commit/be811905823892d811c91784aec3f511ae6be5d3) - **docs:** improve doctests for complex number typed arrays in `lapack/base` [(#12026)](https://github.com/stdlib-js/stdlib/pull/12026) _(by Karan Anand)_
+-   [`01ddffb`](https://github.com/stdlib-js/stdlib/commit/01ddffb2a994e58185114b2c17725c86f35c6a64) - **docs:** propagate recent fixes across `stats/base/dists` and `lapack/base` [(#11999)](https://github.com/stdlib-js/stdlib/pull/11999) _(by Philipp Burckhardt, Athan Reines)_
+-   [`45da043`](https://github.com/stdlib-js/stdlib/commit/45da04383459fdf55aaf55f9a8dc8ce19c6839c4) - **bench:** refactor to use string interpolation in `lapack` [(#11610)](https://github.com/stdlib-js/stdlib/pull/11610) _(by Karan Anand)_
 -   [`0b4edd7`](https://github.com/stdlib-js/stdlib/commit/0b4edd7b897b98d935ef9ece66115ea7f42aec52) - **style:** fix require statements [(#11478)](https://github.com/stdlib-js/stdlib/pull/11478) _(by stdlib-bot)_
 -   [`09675ac`](https://github.com/stdlib-js/stdlib/commit/09675ac400d407006844e7463fbdb4efad6ba227) - **docs:** update examples _(by Athan Reines)_
 -   [`3172206`](https://github.com/stdlib-js/stdlib/commit/317220684f42b0b7c51373e65eb354e7d2be6fc7) - **bench:** fix description _(by Athan Reines)_
@@ -51,9 +54,10 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Karan Anand
 -   Philipp Burckhardt
 -   Prajjwal Bajpai
 
