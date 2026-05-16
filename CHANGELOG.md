@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-09)
+## Unreleased (2026-05-16)
 
 <section class="commits">
 
@@ -12,6 +12,14 @@
 
 <details>
 
+-   [`212d36e`](https://github.com/stdlib-js/stdlib/commit/212d36e260c813c5969e4b3c26f4b04766fd6df8) - **docs:** improve doctests for complex number typed arrays in `lapack/base/zrot` [(#12025)](https://github.com/stdlib-js/stdlib/pull/12025) _(by Karan Anand)_
+-   [`88fbe64`](https://github.com/stdlib-js/stdlib/commit/88fbe641ebaee224f8ab9b4bf9bb18a1634222fb) - **docs:** improve doctests for complex number typed arrays in `lapack/base/zlaset` [(#12024)](https://github.com/stdlib-js/stdlib/pull/12024) _(by Karan Anand)_
+-   [`1c9bfd0`](https://github.com/stdlib-js/stdlib/commit/1c9bfd028c7654e21291e3f4a88fcf3918628532) - **docs:** improve doctests for complex number typed arrays in `lapack/base/clacgv` [(#12018)](https://github.com/stdlib-js/stdlib/pull/12018) _(by Karan Anand)_
+-   [`7ede528`](https://github.com/stdlib-js/stdlib/commit/7ede5282c0a043ac93f65d48e28c494a68f05182) - **docs:** improve doctests for complex number typed arrays in `lapack/base/clacpy` [(#12019)](https://github.com/stdlib-js/stdlib/pull/12019) _(by Karan Anand)_
+-   [`68d17f7`](https://github.com/stdlib-js/stdlib/commit/68d17f71701c225b1b06a31608744834ad9d4d1b) - **docs:** improve doctests for complex number typed arrays in `lapack/base/claset` [(#12020)](https://github.com/stdlib-js/stdlib/pull/12020) _(by Karan Anand)_
+-   [`f578bc5`](https://github.com/stdlib-js/stdlib/commit/f578bc5f6f1694fe79556b5dca8952475ba4e1d5) - **docs:** improve doctests for complex number typed arrays in `lapack/base/crot` [(#12021)](https://github.com/stdlib-js/stdlib/pull/12021) _(by Karan Anand)_
+-   [`e65ccd3`](https://github.com/stdlib-js/stdlib/commit/e65ccd36d3a8de184de6c571c713460a55094c18) - **docs:** improve doctests for complex number typed arrays in `lapack/base/zlacgv` [(#12022)](https://github.com/stdlib-js/stdlib/pull/12022) _(by Karan Anand)_
+-   [`c3ec7e6`](https://github.com/stdlib-js/stdlib/commit/c3ec7e609d14e5144404f1317b892761e6287217) - **docs:** improve doctests for complex number typed arrays in `lapack/base/zlacpy` [(#12023)](https://github.com/stdlib-js/stdlib/pull/12023) _(by Karan Anand)_
 -   [`be81190`](https://github.com/stdlib-js/stdlib/commit/be811905823892d811c91784aec3f511ae6be5d3) - **docs:** improve doctests for complex number typed arrays in `lapack/base` [(#12026)](https://github.com/stdlib-js/stdlib/pull/12026) _(by Karan Anand)_
 -   [`01ddffb`](https://github.com/stdlib-js/stdlib/commit/01ddffb2a994e58185114b2c17725c86f35c6a64) - **docs:** propagate recent fixes across `stats/base/dists` and `lapack/base` [(#11999)](https://github.com/stdlib-js/stdlib/pull/11999) _(by Philipp Burckhardt, Athan Reines)_
 -   [`45da043`](https://github.com/stdlib-js/stdlib/commit/45da04383459fdf55aaf55f9a8dc8ce19c6839c4) - **bench:** refactor to use string interpolation in `lapack` [(#11610)](https://github.com/stdlib-js/stdlib/pull/11610) _(by Karan Anand)_
