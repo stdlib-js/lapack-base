@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-19)
+## Unreleased (2026-06-08)
+
+<section class="features">
+
+### Features
+
+-   [`b4f3a9c`](https://github.com/stdlib-js/stdlib/commit/b4f3a9ce4f360b38a6d4d8112fdb9b86cdac0073) - add `lapack/base/dlaisnan` [(#12183)](https://github.com/stdlib-js/stdlib/pull/12183)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,10 @@
 
 <details>
 
+-   [`fe0c3ea`](https://github.com/stdlib-js/stdlib/commit/fe0c3ea063fe8c5c4f8b0c299f5b49e45e00df55) - **docs:** update `lapack/base` TypeScript declarations [(#12687)](https://github.com/stdlib-js/stdlib/pull/12687) _(by stdlib-bot)_
+-   [`1625581`](https://github.com/stdlib-js/stdlib/commit/162558107026b743bb22b09701ab62f601e7058f) - **docs:** fix examples in `lapack/base` [(#12671)](https://github.com/stdlib-js/stdlib/pull/12671) _(by Philipp Burckhardt)_
+-   [`b4f3a9c`](https://github.com/stdlib-js/stdlib/commit/b4f3a9ce4f360b38a6d4d8112fdb9b86cdac0073) - **feat:** add `lapack/base/dlaisnan` [(#12183)](https://github.com/stdlib-js/stdlib/pull/12183) _(by Pratik, Karan Anand)_
+-   [`b9dbd3e`](https://github.com/stdlib-js/stdlib/commit/b9dbd3e3105c2449bb1f6b95f8c442bbb5b14552) - **chore:** remove misspelled keyword [(#12368)](https://github.com/stdlib-js/stdlib/pull/12368) _(by Philipp Burckhardt)_
 -   [`212d36e`](https://github.com/stdlib-js/stdlib/commit/212d36e260c813c5969e4b3c26f4b04766fd6df8) - **docs:** improve doctests for complex number typed arrays in `lapack/base/zrot` [(#12025)](https://github.com/stdlib-js/stdlib/pull/12025) _(by Karan Anand)_
 -   [`88fbe64`](https://github.com/stdlib-js/stdlib/commit/88fbe641ebaee224f8ab9b4bf9bb18a1634222fb) - **docs:** improve doctests for complex number typed arrays in `lapack/base/zlaset` [(#12024)](https://github.com/stdlib-js/stdlib/pull/12024) _(by Karan Anand)_
 -   [`1c9bfd0`](https://github.com/stdlib-js/stdlib/commit/1c9bfd028c7654e21291e3f4a88fcf3918628532) - **docs:** improve doctests for complex number typed arrays in `lapack/base/clacgv` [(#12018)](https://github.com/stdlib-js/stdlib/pull/12018) _(by Karan Anand)_
@@ -62,12 +76,13 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
 -   Philipp Burckhardt
 -   Prajjwal Bajpai
+-   Pratik
 
 </section>
 
