@@ -35,20 +35,32 @@ limitations under the License.
 
 > Base (i.e., lower-level) linear algebra package (LAPACK) routines.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/lapack-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import lapack from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { clacgv, clacpy, claset, claswp, crot, dgetrans, dgttrf, disnan, dlacpy, dladiv, dlaisnan, dlamch, dlapy2, dlapy3, dlarf, dlarf1f, dlaset, dlassq, dlaswp, dpttrf, iladlc, iladlr, sgetrans, slacpy, slaswp, spttrf, zlacgv, zlacpy, zlaset, zlaswp, zrot } from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base@deno/mod.js';
+var lapack = require( '@stdlib/lapack-base' );
 ```
 
 #### lapack
@@ -73,11 +85,14 @@ The namespace contains the following:
 -   <span class="signature">[`crot( N, cx, strideCX, cy, strideCY, c, s )`][@stdlib/lapack/base/crot]</span><span class="delimiter">: </span><span class="description">apply a plane rotation with real cosine and complex sine to a pair of single-precision complex floating-point vectors.</span>
 -   <span class="signature">[`dgetrans( order, M, N, A, LDA, out, LDO )`][@stdlib/lapack/base/dge-trans]</span><span class="delimiter">: </span><span class="description">convert a matrix from row-major layout to column-major layout or vice versa.</span>
 -   <span class="signature">[`dgttrf( N, DL, D, DU, DU2, IPIV )`][@stdlib/lapack/base/dgttrf]</span><span class="delimiter">: </span><span class="description">compute an `LU` factorization of a real tridiagonal matrix `A` using elimination with partial pivoting and row interchanges.</span>
+-   <span class="signature">[`disnan( x )`][@stdlib/lapack/base/disnan]</span><span class="delimiter">: </span><span class="description">LAPACK auxiliary routine to test whether a double-precision floating-point number is `NaN`.</span>
 -   <span class="signature">[`dlacpy( order, uplo, M, N, A, LDA, B, LDB )`][@stdlib/lapack/base/dlacpy]</span><span class="delimiter">: </span><span class="description">copy all or part of a matrix `A` to another matrix `B`.</span>
 -   <span class="signature">[`dladiv( a, b, c, d, P, Q )`][@stdlib/lapack/base/dladiv]</span><span class="delimiter">: </span><span class="description">divide two double-precision complex floating-point numbers in real arithmetic.</span>
+-   <span class="signature">[`dlaisnan( din1, din2 )`][@stdlib/lapack/base/dlaisnan]</span><span class="delimiter">: </span><span class="description">LAPACK auxiliary routine to test input for NaN by comparing two double-precision floating-point arguments for inequality.</span>
 -   <span class="signature">[`dlamch( cmach )`][@stdlib/lapack/base/dlamch]</span><span class="delimiter">: </span><span class="description">determine double-precision floating-point machine parameters.</span>
 -   <span class="signature">[`dlapy2( x, y )`][@stdlib/lapack/base/dlapy2]</span><span class="delimiter">: </span><span class="description">LAPACK routine to calculate `sqrt(x^2 + y^2)` in a manner which doesn't cause unnecessary overflow.</span>
 -   <span class="signature">[`dlapy3( x, y, z )`][@stdlib/lapack/base/dlapy3]</span><span class="delimiter">: </span><span class="description">LAPACK routine to calculate `sqrt(x^2 + y^2 + z^2)` in a manner which doesn't cause unnecessary overflow.</span>
+-   <span class="signature">[`dlarf( order, side, M, N, V, strideV, tau, C, LDC, work )`][@stdlib/lapack/base/dlarf]</span><span class="delimiter">: </span><span class="description">apply a real elementary reflector `H = I - tau * v * v^T` to a real M by N matrix `C`.</span>
 -   <span class="signature">[`dlarf1f( order, side, M, N, V, strideV, tau, C, LDC, work )`][@stdlib/lapack/base/dlarf1f]</span><span class="delimiter">: </span><span class="description">apply a real elementary reflector `H = I - tau * v * v^T` to a real M by N matrix `C`.</span>
 -   <span class="signature">[`dlaset( order, uplo, M, N, alpha, beta, A, LDA )`][@stdlib/lapack/base/dlaset]</span><span class="delimiter">: </span><span class="description">set the off-diagonal elements and the diagonal elements of a double-precision floating-point matrix to specified values.</span>
 -   <span class="signature">[`dlassq( N, X, strideX, scale, sumsq )`][@stdlib/lapack/base/dlassq]</span><span class="delimiter">: </span><span class="description">return an updated sum of squares represented in scaled form.</span>
@@ -112,8 +127,8 @@ The namespace contains the following:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import lapack from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base@deno/mod.js';
+var objectKeys = require( '@stdlib/utils-keys' );
+var lapack = require( '@stdlib/lapack-base' );
 
 console.log( objectKeys( lapack ) );
 ```
@@ -139,7 +154,7 @@ console.log( objectKeys( lapack ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -204,61 +219,67 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/lapack/base/clacgv]: https://github.com/stdlib-js/lapack-base-clacgv/tree/deno
+[@stdlib/lapack/base/clacgv]: https://github.com/stdlib-js/lapack-base-clacgv
 
-[@stdlib/lapack/base/clacpy]: https://github.com/stdlib-js/lapack-base-clacpy/tree/deno
+[@stdlib/lapack/base/clacpy]: https://github.com/stdlib-js/lapack-base-clacpy
 
-[@stdlib/lapack/base/claset]: https://github.com/stdlib-js/lapack-base-claset/tree/deno
+[@stdlib/lapack/base/claset]: https://github.com/stdlib-js/lapack-base-claset
 
-[@stdlib/lapack/base/claswp]: https://github.com/stdlib-js/lapack-base-claswp/tree/deno
+[@stdlib/lapack/base/claswp]: https://github.com/stdlib-js/lapack-base-claswp
 
-[@stdlib/lapack/base/crot]: https://github.com/stdlib-js/lapack-base-crot/tree/deno
+[@stdlib/lapack/base/crot]: https://github.com/stdlib-js/lapack-base-crot
 
-[@stdlib/lapack/base/dge-trans]: https://github.com/stdlib-js/lapack-base-dge-trans/tree/deno
+[@stdlib/lapack/base/dge-trans]: https://github.com/stdlib-js/lapack-base-dge-trans
 
-[@stdlib/lapack/base/dgttrf]: https://github.com/stdlib-js/lapack-base-dgttrf/tree/deno
+[@stdlib/lapack/base/dgttrf]: https://github.com/stdlib-js/lapack-base-dgttrf
 
-[@stdlib/lapack/base/dlacpy]: https://github.com/stdlib-js/lapack-base-dlacpy/tree/deno
+[@stdlib/lapack/base/disnan]: https://github.com/stdlib-js/lapack-base-disnan
 
-[@stdlib/lapack/base/dladiv]: https://github.com/stdlib-js/lapack-base-dladiv/tree/deno
+[@stdlib/lapack/base/dlacpy]: https://github.com/stdlib-js/lapack-base-dlacpy
 
-[@stdlib/lapack/base/dlamch]: https://github.com/stdlib-js/lapack-base-dlamch/tree/deno
+[@stdlib/lapack/base/dladiv]: https://github.com/stdlib-js/lapack-base-dladiv
 
-[@stdlib/lapack/base/dlapy2]: https://github.com/stdlib-js/lapack-base-dlapy2/tree/deno
+[@stdlib/lapack/base/dlaisnan]: https://github.com/stdlib-js/lapack-base-dlaisnan
 
-[@stdlib/lapack/base/dlapy3]: https://github.com/stdlib-js/lapack-base-dlapy3/tree/deno
+[@stdlib/lapack/base/dlamch]: https://github.com/stdlib-js/lapack-base-dlamch
 
-[@stdlib/lapack/base/dlarf1f]: https://github.com/stdlib-js/lapack-base-dlarf1f/tree/deno
+[@stdlib/lapack/base/dlapy2]: https://github.com/stdlib-js/lapack-base-dlapy2
 
-[@stdlib/lapack/base/dlaset]: https://github.com/stdlib-js/lapack-base-dlaset/tree/deno
+[@stdlib/lapack/base/dlapy3]: https://github.com/stdlib-js/lapack-base-dlapy3
 
-[@stdlib/lapack/base/dlassq]: https://github.com/stdlib-js/lapack-base-dlassq/tree/deno
+[@stdlib/lapack/base/dlarf]: https://github.com/stdlib-js/lapack-base-dlarf
 
-[@stdlib/lapack/base/dlaswp]: https://github.com/stdlib-js/lapack-base-dlaswp/tree/deno
+[@stdlib/lapack/base/dlarf1f]: https://github.com/stdlib-js/lapack-base-dlarf1f
 
-[@stdlib/lapack/base/dpttrf]: https://github.com/stdlib-js/lapack-base-dpttrf/tree/deno
+[@stdlib/lapack/base/dlaset]: https://github.com/stdlib-js/lapack-base-dlaset
 
-[@stdlib/lapack/base/iladlc]: https://github.com/stdlib-js/lapack-base-iladlc/tree/deno
+[@stdlib/lapack/base/dlassq]: https://github.com/stdlib-js/lapack-base-dlassq
 
-[@stdlib/lapack/base/iladlr]: https://github.com/stdlib-js/lapack-base-iladlr/tree/deno
+[@stdlib/lapack/base/dlaswp]: https://github.com/stdlib-js/lapack-base-dlaswp
 
-[@stdlib/lapack/base/sge-trans]: https://github.com/stdlib-js/lapack-base-sge-trans/tree/deno
+[@stdlib/lapack/base/dpttrf]: https://github.com/stdlib-js/lapack-base-dpttrf
 
-[@stdlib/lapack/base/slacpy]: https://github.com/stdlib-js/lapack-base-slacpy/tree/deno
+[@stdlib/lapack/base/iladlc]: https://github.com/stdlib-js/lapack-base-iladlc
 
-[@stdlib/lapack/base/slaswp]: https://github.com/stdlib-js/lapack-base-slaswp/tree/deno
+[@stdlib/lapack/base/iladlr]: https://github.com/stdlib-js/lapack-base-iladlr
 
-[@stdlib/lapack/base/spttrf]: https://github.com/stdlib-js/lapack-base-spttrf/tree/deno
+[@stdlib/lapack/base/sge-trans]: https://github.com/stdlib-js/lapack-base-sge-trans
 
-[@stdlib/lapack/base/zlacgv]: https://github.com/stdlib-js/lapack-base-zlacgv/tree/deno
+[@stdlib/lapack/base/slacpy]: https://github.com/stdlib-js/lapack-base-slacpy
 
-[@stdlib/lapack/base/zlacpy]: https://github.com/stdlib-js/lapack-base-zlacpy/tree/deno
+[@stdlib/lapack/base/slaswp]: https://github.com/stdlib-js/lapack-base-slaswp
 
-[@stdlib/lapack/base/zlaset]: https://github.com/stdlib-js/lapack-base-zlaset/tree/deno
+[@stdlib/lapack/base/spttrf]: https://github.com/stdlib-js/lapack-base-spttrf
 
-[@stdlib/lapack/base/zlaswp]: https://github.com/stdlib-js/lapack-base-zlaswp/tree/deno
+[@stdlib/lapack/base/zlacgv]: https://github.com/stdlib-js/lapack-base-zlacgv
 
-[@stdlib/lapack/base/zrot]: https://github.com/stdlib-js/lapack-base-zrot/tree/deno
+[@stdlib/lapack/base/zlacpy]: https://github.com/stdlib-js/lapack-base-zlacpy
+
+[@stdlib/lapack/base/zlaset]: https://github.com/stdlib-js/lapack-base-zlaset
+
+[@stdlib/lapack/base/zlaswp]: https://github.com/stdlib-js/lapack-base-zlaswp
+
+[@stdlib/lapack/base/zrot]: https://github.com/stdlib-js/lapack-base-zrot
 
 <!-- </toc-links> -->
 
