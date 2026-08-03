@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-29)
+## Unreleased (2026-08-03)
 
 <section class="features">
 
 ### Features
 
+-   [`cabd812`](https://github.com/stdlib-js/stdlib/commit/cabd81268d4b6b29d3fbe026c61772b8b9f53367) - add `dlaruv` to namespace
+-   [`3a169fa`](https://github.com/stdlib-js/stdlib/commit/3a169fa527bb9ea60481a5b343ce1b0f0ecae87c) - add `lapack/base/dlaruv` [(#12443)](https://github.com/stdlib-js/stdlib/pull/12443)
 -   [`367d0a4`](https://github.com/stdlib-js/stdlib/commit/367d0a4d6f44639b819cbe30b0f39b7c54ff29ed) - update `lapack/base` TypeScript declarations [(#13042)](https://github.com/stdlib-js/stdlib/pull/13042)
 -   [`1d06a97`](https://github.com/stdlib-js/stdlib/commit/1d06a97f98ef9a833194d382e1a37dfea0aeb01c) - add `disnan` and `dlaisnan` to namespace
 -   [`d7e242d`](https://github.com/stdlib-js/stdlib/commit/d7e242d798685e1e1f8e01685df2f98419aa67f2) - add `dlarf` to namespace
@@ -21,12 +23,33 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`fa17ce3`](https://github.com/stdlib-js/stdlib/commit/fa17ce33010f7158363becd02e0545c35a548e97) - address off-by-one indexing bug [(#13436)](https://github.com/stdlib-js/stdlib/pull/13436)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`67eddb8`](https://github.com/stdlib-js/stdlib/commit/67eddb82a1bae564f3603d48d158c820717bf45d) - **docs:** update namespace table of contents [(#13873)](https://github.com/stdlib-js/stdlib/pull/13873) _(by stdlib-bot)_
+-   [`cabd812`](https://github.com/stdlib-js/stdlib/commit/cabd81268d4b6b29d3fbe026c61772b8b9f53367) - **feat:** add `dlaruv` to namespace _(by Athan Reines)_
+-   [`156aaa1`](https://github.com/stdlib-js/stdlib/commit/156aaa1c98135aae4cfcb5161d5d1fcec0dd8c6a) - **bench:** update benchmarks to use decimal literals [(#13859)](https://github.com/stdlib-js/stdlib/pull/13859) _(by Philipp Burckhardt)_
+-   [`3a169fa`](https://github.com/stdlib-js/stdlib/commit/3a169fa527bb9ea60481a5b343ce1b0f0ecae87c) - **feat:** add `lapack/base/dlaruv` [(#12443)](https://github.com/stdlib-js/stdlib/pull/12443) _(by Pratik, Athan Reines, Karan Anand)_
+-   [`4a0c3be`](https://github.com/stdlib-js/stdlib/commit/4a0c3be4719f713b69a8ff6b66cc3b0573bf4444) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`f748b45`](https://github.com/stdlib-js/stdlib/commit/f748b45d1e3b17e3ccbd096268bf186fdeaee5ab) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`b953edd`](https://github.com/stdlib-js/stdlib/commit/b953edd95d0ca1b521d0abbd2c2719d099ff7807) - **refactor:** use `constants/float64/nan` and clean-up [(#13585)](https://github.com/stdlib-js/stdlib/pull/13585) _(by Philipp Burckhardt)_
+-   [`cdfae66`](https://github.com/stdlib-js/stdlib/commit/cdfae66a9ae0928872945a2f12cbfd185ea76fe4) - **chore:** clean-up [(#13487)](https://github.com/stdlib-js/stdlib/pull/13487) _(by Philipp Burckhardt)_
+-   [`199bb30`](https://github.com/stdlib-js/stdlib/commit/199bb30fd65e5ae83acd090f856fd0401edb8acb) - **docs:** update descriptions [(#13481)](https://github.com/stdlib-js/stdlib/pull/13481) _(by Philipp Burckhardt)_
+-   [`fa17ce3`](https://github.com/stdlib-js/stdlib/commit/fa17ce33010f7158363becd02e0545c35a548e97) - **fix:** address off-by-one indexing bug [(#13436)](https://github.com/stdlib-js/stdlib/pull/13436) _(by Aayush Khanna, Athan Reines)_
+-   [`2ad0b70`](https://github.com/stdlib-js/stdlib/commit/2ad0b70d4eae5bbc62b70d5010ce457e748670c4) - **docs:** document empty-matrix return value [(#13396)](https://github.com/stdlib-js/stdlib/pull/13396) _(by Philipp Burckhardt)_
 -   [`8fc9974`](https://github.com/stdlib-js/stdlib/commit/8fc99743f66763d218b180d7e4c98a3e889ae05a) - **docs:** add missing trailing periods to package descriptions [(#13086)](https://github.com/stdlib-js/stdlib/pull/13086) _(by Karan Anand)_
 -   [`6a301dd`](https://github.com/stdlib-js/stdlib/commit/6a301ddefd0cf3bd4c05b26ff69aaaebaa356b83) - **docs:** update namespace table of contents [(#13043)](https://github.com/stdlib-js/stdlib/pull/13043) _(by stdlib-bot)_
 -   [`367d0a4`](https://github.com/stdlib-js/stdlib/commit/367d0a4d6f44639b819cbe30b0f39b7c54ff29ed) - **feat:** update `lapack/base` TypeScript declarations [(#13042)](https://github.com/stdlib-js/stdlib/pull/13042) _(by stdlib-bot)_
@@ -90,8 +113,9 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
+-   Aayush Khanna
 -   Athan Reines
 -   Karan Anand
 -   Philipp Burckhardt

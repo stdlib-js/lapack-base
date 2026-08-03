@@ -52,6 +52,7 @@
     "@stdlib/lapack-base-dlapy3": "^0.1.1",
     "@stdlib/lapack-base-dlarf": "github:stdlib-js/lapack-base-dlarf#main",
     "@stdlib/lapack-base-dlarf1f": "^0.1.1",
+    "@stdlib/lapack-base-dlaruv": "github:stdlib-js/lapack-base-dlaruv#main",
     "@stdlib/lapack-base-dlaset": "^0.1.1",
     "@stdlib/lapack-base-dlassq": "^0.1.1",
     "@stdlib/lapack-base-dlaswp": "^0.2.1",
