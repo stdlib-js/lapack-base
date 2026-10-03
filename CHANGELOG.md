@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-17)
+## Unreleased (2026-10-03)
 
 <section class="features">
 
@@ -34,12 +34,31 @@
 
 <!-- /.bug-fixes -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#14920](https://github.com/stdlib-js/stdlib/issues/14920)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`e78f04d`](https://github.com/stdlib-js/stdlib/commit/e78f04d723599f35af5b3c1bed2454d89a26d44d) - **test:** migrate `blas/base/wasm/cscal` to ULP-based assertions [(#15188)](https://github.com/stdlib-js/stdlib/pull/15188) _(by Athan Reines, Philipp Burckhardt)_
+-   [`b9886c4`](https://github.com/stdlib-js/stdlib/commit/b9886c4636fe60661e2c37ceaf70de728430d388) - **test:** migrate `lapack/base/spttrf` to ULP-based assertions [(#15240)](https://github.com/stdlib-js/stdlib/pull/15240) _(by Athan Reines, Philipp Burckhardt)_
+-   [`b7e60b2`](https://github.com/stdlib-js/stdlib/commit/b7e60b2b7f998298a72f1448681a2180a2b8c7f4) - **test:** migrate `lapack/base/dpttrf` to ULP-based assertions [(#15358)](https://github.com/stdlib-js/stdlib/pull/15358) _(by Athan Reines, Philipp Burckhardt)_
+-   [`1e05f05`](https://github.com/stdlib-js/stdlib/commit/1e05f05fc4151d680febc6ae20bd8cdc73d85568) - **chore:** fix JavaScript lint errors [(#14999)](https://github.com/stdlib-js/stdlib/pull/14999) _(by Kanika Sharma)_
+-   [`96b9b4e`](https://github.com/stdlib-js/stdlib/commit/96b9b4e6b3cfd7a9744e51fa5504a1eb77dc0b25) - **test:** migrate `lapack/base/dladiv` to ULP-based assertions [(#15086)](https://github.com/stdlib-js/stdlib/pull/15086) _(by Philipp Burckhardt)_
+-   [`48d429b`](https://github.com/stdlib-js/stdlib/commit/48d429bf624b23e053d26a3050ebcd20c79f7a25) - **test:** migrate `lapack/base/dlapy2` to ULP-based assertions [(#14958)](https://github.com/stdlib-js/stdlib/pull/14958) _(by Philipp Burckhardt, Athan Reines)_
+-   [`607bbc6`](https://github.com/stdlib-js/stdlib/commit/607bbc6e104c273e5b26cabfb21a8c06f3d5d375) - **build:** avoid false positives in ESLint rule `jsdoc-doctest-decimal-point` [(#14644)](https://github.com/stdlib-js/stdlib/pull/14644) _(by Philipp Burckhardt, Athan Reines)_
 -   [`3208321`](https://github.com/stdlib-js/stdlib/commit/320832192c8d32b18d24c7342ba1cf03cc5affea) - **bench:** refactor to use dynamic memory allocation [(#14099)](https://github.com/stdlib-js/stdlib/pull/14099) _(by Philipp Burckhardt, Athan Reines)_
 -   [`c3c4692`](https://github.com/stdlib-js/stdlib/commit/c3c46923b50c668ecde52feee752ca76cc995d02) - **feat:** update `lapack/base` TypeScript declarations [(#13872)](https://github.com/stdlib-js/stdlib/pull/13872) _(by stdlib-bot)_
 -   [`67eddb8`](https://github.com/stdlib-js/stdlib/commit/67eddb82a1bae564f3603d48d158c820717bf45d) - **docs:** update namespace table of contents [(#13873)](https://github.com/stdlib-js/stdlib/pull/13873) _(by stdlib-bot)_
@@ -116,10 +135,11 @@
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
+-   Kanika Sharma
 -   Karan Anand
 -   Philipp Burckhardt
 -   Prajjwal Bajpai
