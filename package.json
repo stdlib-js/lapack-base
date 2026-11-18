@@ -89,7 +89,6 @@
     "@stdlib/assert-is-error": "^0.2.3",
     "@stdlib/assert-is-same-complex128array": "^0.2.3",
     "@stdlib/assert-is-same-complex64array": "^0.2.3",
-    "@stdlib/assert-is-same-float64array": "^0.2.3",
     "@stdlib/blas-base-assert-is-layout": "^0.0.3",
     "@stdlib/blas-base-assert-is-operation-side": "^0.0.3",
     "@stdlib/blas-base-ccopy": "^0.4.1",
